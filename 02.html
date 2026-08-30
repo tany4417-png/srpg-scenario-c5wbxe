@@ -1,0 +1,704 @@
+<!doctype html><html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>二話 城からの逃亡</title><style>
+:root{--bg:#f7f4ee;--ink:#1f1c18;--sub:#6b6459;--line:#ddd6c8;--accent:#7a4a2b;--card:#fffdf8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+ font-family:"Yu Gothic","Hiragino Sans","Noto Sans JP",sans-serif;
+ line-height:1.85;font-size:16px;-webkit-text-size-adjust:100%}
+.wrap{max-width:760px;margin:0 auto;padding:24px 18px 80px}
+header.top{position:sticky;top:0;z-index:5;background:rgba(247,244,238,.94);
+ backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+header.top .in{max-width:760px;margin:0 auto;padding:10px 18px;display:flex;
+ gap:12px;align-items:baseline;flex-wrap:wrap}
+header.top a{color:var(--accent);text-decoration:none;font-size:14px}
+header.top a:hover{text-decoration:underline}
+header.top .now{font-weight:700;font-size:15px;margin-right:auto}
+h1{font-size:24px;margin:28px 0 10px;line-height:1.4}
+h2{font-size:20px;margin:44px 0 12px;padding-top:8px;border-top:2px solid var(--line);
+ line-height:1.4;scroll-margin-top:64px}
+h3{font-size:16px;margin:30px 0 8px;color:var(--accent)}
+p{margin:10px 0}
+a.anchor{margin-left:8px;color:var(--line);text-decoration:none;font-weight:400}
+h2:hover a.anchor{color:var(--accent)}
+.tw{overflow-x:auto;margin:14px 0}
+table{border-collapse:collapse;width:100%;font-size:14px;background:var(--card)}
+th,td{border:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top}
+th{background:#f0ebe0;font-weight:700;white-space:nowrap}
+code{background:#eee8dc;padding:1px 5px;border-radius:3px;font-size:.9em}
+hr{border:0;border-top:1px solid var(--line);margin:26px 0}
+ul{margin:10px 0;padding-left:22px}
+.serif{background:var(--card);border:1px solid var(--line);border-radius:6px;
+ padding:14px 16px;margin:14px 0}
+.se{margin:0 0 14px}
+.se:last-child,.ji:last-child{margin-bottom:0}
+.se b{display:block;font-size:13px;color:var(--accent);font-weight:700;
+ letter-spacing:.04em;margin-bottom:2px}
+.se p{margin:0;padding-left:1em;text-indent:-1em}
+.ji{margin:0 0 14px;color:var(--sub)}
+.ji b{display:none}
+.ji p{margin:0}
+.ji.note{font-size:14px}
+.toc{background:var(--card);border:1px solid var(--line);border-radius:6px;
+ padding:6px 0;margin:16px 0}
+.toc a{display:block;padding:9px 16px;color:var(--ink);text-decoration:none;
+ border-bottom:1px solid var(--line);font-size:15px}
+.toc a:last-child{border-bottom:0}
+.toc a:hover{background:#f0ebe0}
+.toc .num{display:inline-block;min-width:3.6em;color:var(--accent);font-weight:700}
+.lead{color:var(--sub);font-size:15px}
+footer{margin-top:60px;padding-top:18px;border-top:1px solid var(--line);
+ color:var(--sub);font-size:13px}
+@media(max-width:480px){body{font-size:15px}.wrap{padding:18px 14px 60px}h1{font-size:21px}}
+</style></head><body>
+<header class="top"><div class="in">
+<span class="now">二話 城からの逃亡</span><a href="index.html">目次</a><a href="01.html">一話</a><a href="03.html">三話</a><a href="04.html">四話</a><a href="05.html">五話</a><a href="06.html">六話</a><a href="00.html">話者と情報設計</a><a href="haichi.html">一章イベント配置表</a>
+</div></header>
+<div class="wrap"><h1>一章シナリオ 二話 城からの逃亡（2-1〜2-3）</h1>
+<p><strong>第3版で筋を作り直しました</strong>（2026-08-30）。第2版から次を変えています。</p>
+<div class="tw"><table><thead><tr><th>#</th><th>変えたこと</th><th>根拠</th></tr></thead><tbody><tr><td>1</td><td><strong>逃がすと決めるのはアレン。理由は痛みではなく、護衛が外れたら殺されること</strong></td><td><code>README.md</code> 10章「逃亡まで（1〜2）」</td></tr><tr><td>2</td><td><strong>リンデの「外に出たいのです」を、理由を聞いたあとへ移した</strong></td><td>オーナー判断（2026-08-30）。README の未決1件を解消</td></tr><tr><td>3</td><td><strong>2-3 の監軍をコンラートからジギスムントへ差し替えた</strong></td><td><code>世界設定-完全版.md</code> 7章（2026-08-29 オーナー決定でコンラートを序盤の敵から外した）</td></tr><tr><td>4</td><td><strong>クルトの合流を終了イベントから自動イベント2へ移した</strong></td><td>README「追っ手と戦っているところへ小隊が集結する」</td></tr><tr><td>5</td><td><strong>小隊が何も失わずに済む立場であることを台詞で出した</strong></td><td>README「放っておけば安泰なところを捨てるので、選択が完全に自発的になる」</td></tr></tbody></table></div>
+<p><strong>アレンがリンデの名を呼ぶのは 6-3 の一度だけです。</strong> ここではまだ「殿下」です。</p>
+<p><strong>台詞の中の「　」だけの行は、1つのウィンドウの中の間です。</strong></p>
+<hr>
+<h2 id="2-1">2-1 皇城の回廊（夜）<a class="anchor" href="#2-1">#</a></h2>
+<div class="tw"><table><thead><tr><th>項目</th><th>中身</th></tr></thead><tbody><tr><td>勝利条件</td><td>リンデが東の階段へ到達</td></tr><tr><td>敗北条件</td><td>リンデの戦闘不能／アレンの戦闘不能／6ターン経過（警備が交代して人が増える）</td></tr><tr><td>敵</td><td>10体（帝国の衛兵）</td></tr></tbody></table></div>
+<p><strong>開幕がこの話の芯です。</strong> アレンが独断で決め、リンデが理由を聞いたうえで同意します。<strong>二人とも、放っておけば安泰な立場を自分から捨てます。</strong></p>
+<h3>開幕イベント</h3>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>同じ夜　皇城 西棟――</p><p>突き当たりの一室　その扉の外――</p></div>
+<div class="se"><b>クルト</b><p>隊長、まだ立ってんのか。</p><p>番の替わりは明け方だぞ。</p><p>俺が代わるから、少し寝てこいって。</p></div>
+<div class="se"><b>アレン</b><p>いや、いい。</p><p>寝ても同じことばっかり考えると思う。</p></div>
+<div class="se"><b>クルト</b><p>俺らの配置換えのことか？</p></div>
+<div class="se"><b>アレン</b><p>……ああ。</p></div>
+<div class="se"><b>クルト</b><p>だよな。</p><p>あの文官、言い方が引っかかったんだよ。</p><p>もう決まってますって顔しててさ。</p></div>
+<div class="se"><b>アレン</b><p>俺もそう思った。</p></div>
+<div class="se"><b>クルト</b><p>なあ隊長。何か隠してるだろ。</p></div>
+<div class="se"><b>アレン</b><p>気にしないでくれ。</p></div>
+<div class="se"><b>クルト</b><p>気にするなって言われてもなあ。</p><p>……まあいいか。</p><p>朝まで詰所にいるから、用があれば呼べよ。</p></div>
+<div class="ji"><b>（地の文）</b><p>クルトは廊下の角で足を止めた――</p></div>
+<div class="se"><b>クルト</b><p>呼ばれなくても行くかもしれんけど。</p></div>
+<div class="se"><b>アレン</b><p>なんだそれは。</p></div>
+<div class="se"><b>クルト</b><p>俺の勝手だろ。</p></div>
+<div class="ji"><b>（地の文）</b><p>足音が遠ざかった――</p></div>
+<div class="ji"><b>（地の文）</b><p>扉が、内側から開いた――</p></div>
+<div class="se"><b>アレン</b><p>殿下！？</p><p>半日は動けないって、侍医が言ってましたよね。</p></div>
+<div class="se"><b>リンデ</b><p>あなたと話したいことがあって、頑張って起きてきました。</p></div>
+<div class="se"><b>アレン</b><p>……話したいこと、ですか。</p></div>
+<div class="se"><b>リンデ</b><p>はい。少しだけ、よろしいですか。</p></div>
+<div class="se"><b>アレン</b><p>もちろんです。</p><p>あ、いえ、その前に座ってください。</p><p>立っていられる顔色じゃありません。</p></div>
+<div class="se"><b>リンデ</b><p>平気です。</p></div>
+<div class="se"><b>アレン</b><p>平気じゃないです。</p></div>
+<div class="se"><b>リンデ</b><p>……はい。座ります。</p></div>
+<div class="se"><b>リンデ</b><p>グラーヴェン。</p><p>アウレリアへの道で、風が冷たいと言いました。</p><p>覚えていますか？</p></div>
+<div class="se"><b>アレン</b><p>覚えてます。</p><p>横を歩いてましたから。</p></div>
+<div class="se"><b>リンデ</b><p>あのとき、四年ぶりに外を歩いたんです。</p></div>
+<div class="se"><b>九つのときからずっと、この部屋と、自分の部屋と、</b><p>窓の閉じた馬車しか知りませんでした。</p><p>風がどんなものか、忘れていました。</p></div>
+<div class="se"><b>アレン</b><p>……。</p></div>
+<div class="se"><b>リンデ</b><p>それで、困ったことになりました。</p></div>
+<div class="se"><b>アレン</b><p>困った？</p></div>
+<div class="se"><b>リンデ</b><p>思い出してしまったので。</p></div>
+<div class="ji"><b>（地の文）</b><p>廊下の灯が、ひとつ落ちた――</p></div>
+<div class="se"><b>リンデ</b><p>明日の夜、城を出るつもりです。</p><p>見逃してもらえませんか？</p></div>
+<div class="se"><b>アレン</b><p>……。</p></div>
+<div class="se"><b>リンデ</b><p>あなたは眠っていた、ということにしてください。</p></div>
+<div class="se"><b>アレン</b><p>……理由を聞いてもいいですか？</p></div>
+<div class="se"><b>リンデ</b><p>このままだと、死ぬと思うので。</p></div>
+<div class="se"><b>アレン</b><p>……。</p></div>
+<div class="se"><b>リンデ</b><p>今日は半日眠りました。</p><p>去年は三刻でした。おととしは二刻です。</p></div>
+<div class="se"><b>アレン</b><p>……。</p></div>
+<div class="se"><b>リンデ</b><p>だんだん長くなります。</p><p>そのうち起きないと思います。</p></div>
+<div class="se"><b>アレン</b><p>殿下。</p></div>
+<div class="se"><b>リンデ</b><p>それと、街道で名前を聞きました。</p></div>
+<div class="se"><b>アレン</b><p>……オトマール。</p></div>
+<div class="se"><b>リンデ</b><p>あの人、わたしを殺しますよね。</p></div>
+<div class="se"><b>アレン</b><p>……はい。</p></div>
+<div class="se"><b>リンデ</b><p>やっぱり。</p></div>
+<div class="se"><b>アレン</b><p>驚かないんですか？</p></div>
+<div class="se"><b>リンデ</b><p>驚きました。街道で。</p><p>いまは二回目なので。</p></div>
+<div class="se"><b>アレン</b><p>……殿下。俺からも言うことがあります。</p><p>五日後に、俺たちが外されます。</p></div>
+<div class="se"><b>リンデ</b><p>……四年でしたね。</p></div>
+<div class="se"><b>アレン</b><p>次に入るのは第七衛士隊です。</p><p>宰相府の警備をやってた連中です。</p></div>
+<div class="se"><b>リンデ</b><p>……。</p></div>
+<div class="se"><b>リンデ</b><p>じゃあ、五日後ですね。</p></div>
+<div class="se"><b>アレン</b><p>もう少しあとだと思います。</p><p>替わってすぐだと目立つので。</p></div>
+<div class="se"><b>リンデ</b><p>……もっと早いと思っていました。</p></div>
+<div class="se"><b>アレン</b><p>訴える方法も探しました。</p><p>証拠は賊の断末魔だけですけど、陛下なら調べさせると思います。</p></div>
+<div class="se"><b>リンデ</b><p>父は調べます。</p><p>わたしの手は、帝国の宝ですから。</p></div>
+<div class="se"><b>アレン</b><p>はい。</p><p>……それで、一度は諦めたんです。</p></div>
+<div class="se"><b>リンデ</b><p>諦めた？</p></div>
+<div class="se"><b>アレン</b><p>陛下は殿下を守ります。</p><p>でも、守るというのは警備を増やすことです。</p></div>
+<div class="se"><b>部屋から出さない形になります。</b></div>
+<div class="se"><b>リンデ</b><p>……。</p></div>
+<div class="se"><b>アレン</b><p>殺されません。</p><p>でも、外にも出られません。</p></div>
+<div class="se"><b>リンデ</b><p>どっちも嫌です。</p></div>
+<div class="se"><b>アレン</b><p>……はい。</p></div>
+<div class="se"><b>アレン</b><p>どっちがましか、俺には決められませんでした。</p><p>だから殿下に聞こうと思って、ここで立ってました。</p></div>
+<div class="se"><b>リンデ</b><p>さっき言いました。</p></div>
+<div class="se"><b>アレン</b><p>……はい。聞きました。</p></div>
+<div class="se"><b>リンデ</b><p>見逃してくれませんか？</p></div>
+<div class="se"><b>アレン</b><p>断ります。</p></div>
+<div class="se"><b>リンデ</b><p>……そうですか。</p></div>
+<div class="se"><b>アレン</b><p>その前に一つ教えてください。</p><p>どうやって出るつもりだったんですか？</p></div>
+<div class="se"><b>リンデ</b><p>西の回廊から庭に降りて、塀を越えます。</p></div>
+<div class="se"><b>アレン</b><p>塀は四人で見張ってます。犬もいます。</p></div>
+<div class="se"><b>リンデ</b><p>……犬。</p></div>
+<div class="se"><b>アレン</b><p>二頭います。</p></div>
+<div class="se"><b>リンデ</b><p>……知りませんでした。</p></div>
+<div class="se"><b>アレン</b><p>だから断るんです。</p><p>殿下ひとりだと、庭で終わりです。</p></div>
+<div class="se"><b>リンデ</b><p>……はい。</p></div>
+<div class="se"><b>アレン</b><p>俺が連れて出ます。今夜です。</p></div>
+<div class="se"><b>リンデ</b><p>え。</p></div>
+<div class="se"><b>アレン</b><p>明日は錬成の日でしょう。</p><p>朝から侍医と侍女が入って、廊下に人が増えます。</p></div>
+<div class="se"><b>リンデ</b><p>……本気ですか？</p></div>
+<div class="se"><b>アレン</b><p>本気です。</p></div>
+<div class="se"><b>リンデ</b><p>あなたはどうなるんですか？</p></div>
+<div class="se"><b>アレン</b><p>逆賊ですね。</p><p>家は取り潰しでしょう。</p></div>
+<div class="se"><b>リンデ</b><p>ご家族は。</p></div>
+<div class="se"><b>アレン</b><p>母がひとりです。東の領地にいます。</p></div>
+<div class="se"><b>リンデ</b><p>連れて出られませんか？</p></div>
+<div class="se"><b>アレン</b><p>時間がありません。</p><p>それに母は、こういうときに逃げる人じゃないので。</p></div>
+<div class="se"><b>リンデ</b><p>……強い方ですね。</p></div>
+<div class="se"><b>アレン</b><p>俺より肝が据わってます。</p><p>布を織って、この剣を買ってくれた人です。</p></div>
+<div class="se"><b>リンデ</b><p>グラーヴェン。</p><p>どうしてそこまでしてくれるんですか？</p></div>
+<div class="se"><b>アレン</b><p>……。</p></div>
+<div class="se"><b>リンデ</b><p>誰にも頼まれてませんよね。</p></div>
+<div class="se"><b>アレン</b><p>うまく言えないんです。</p></div>
+<div class="se"><b>四年、この扉の外に立ってました。</b><p>中で何が起きてるかは、見たことがありません。</p></div>
+<div class="se"><b>リンデ</b><p>見なくていいのです。</p><p>宮殿がそう決めているので。</p></div>
+<div class="se"><b>アレン</b><p>でも、聞こえます。</p></div>
+<div class="se"><b>リンデ</b><p>……。</p></div>
+<div class="se"><b>アレン</b><p>街道で歩いたとき、殿下は一度も痛いと言いませんでした。</p><p>馬車が斧で叩かれたときもです。</p></div>
+<div class="se"><b>リンデ</b><p>言っても、何も変わりませんから。</p></div>
+<div class="se"><b>アレン</b><p>変わります。俺が動きます。</p></div>
+<div class="se"><b>リンデ</b><p>……。</p></div>
+<div class="se"><b>アレン</b><p>それだけです。</p><p>理由になってませんけど。</p></div>
+<div class="se"><b>リンデ</b><p>なってます。</p></div>
+<div class="ji"><b>（地の文）</b><p>アレンが剣の柄に手を置いた――</p></div>
+<div class="se"><b>アレン</b><p>東の階段が、この時間はいちばん人が少ないです。</p><p>それでも二人か三人は立っています。</p></div>
+<div class="se"><b>リンデ</b><p>見つかりますね。</p></div>
+<div class="se"><b>アレン</b><p>見つかります。隠れて出るのは無理です。</p><p>見つかったら押し通ります。殺さずに。</p></div>
+<div class="se"><b>リンデ</b><p>殺さずに、できますか？</p></div>
+<div class="se"><b>アレン</b><p>やります。</p><p>同じ隊で飯を食ってきた連中なので。</p></div>
+<div class="se"><b>リンデ</b><p>……はい。</p></div>
+<div class="se"><b>アレン</b><p>あと、走れますか？</p></div>
+<div class="se"><b>リンデ</b><p>……たぶん。</p></div>
+<div class="se"><b>アレン</b><p>たぶんは困ります。</p></div>
+<div class="se"><b>リンデ</b><p>走ります。</p></div></div>
+<h3>自動イベント1（1ターン開始）</h3>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>回廊の先で灯が動いた――</p></div>
+<div class="se"><b>衛兵</b><p>誰かいるのか！</p><p>名乗れ！</p></div>
+<div class="se"><b>アレン</b><p>来ましたね。</p><p>殿下、少し下がっててください。</p></div>
+<div class="se"><b>リンデ</b><p>思ったより早いですね。</p></div>
+<div class="se"><b>アレン</b><p>いえ、こんなものです。</p><p>この刻限でも、二人か三人は必ず立ってますから。</p></div>
+<div class="se"><b>衛兵</b><p>護衛小隊長どの！</p><p>こんな時間に何を……えっ、後ろにいるのは！？</p></div>
+<div class="se"><b>アレン</b><p>下がってくれ。</p></div>
+<div class="se"><b>衛兵</b><p>下がれません！</p><p>殿下をお部屋へお戻しします！</p></div>
+<div class="se"><b>アレン</b><p>断る。</p></div>
+<div class="se"><b>衛兵</b><p>なっ……！</p></div>
+<div class="se"><b>アレン</b><p>剣を引いてくれ。</p><p>おまえたちを斬りたくない。</p></div>
+<div class="se"><b>衛兵</b><p>こっちも命令なんですよ！</p><p>小隊長どの、いまならまだ間に合います！</p></div>
+<div class="se"><b>アレン</b><p>間に合わないんだ。</p><p>五日後には、俺はもうここにいない。</p></div></div>
+<h3>自動イベント2（3ターン開始）</h3>
+<p><strong>第3版で追加しました。</strong> 旧版はここで台詞を置かず、クルトの合流を終了イベントに回していました。<strong>「追っ手と戦っているところへ小隊が集結する」形にするため、ここへ移しています。</strong></p>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>背後の回廊から、衛兵が四人――</p></div>
+<div class="se"><b>衛兵</b><p>挟め！　両側から詰めろ！</p><p>小隊長どのを通すな！</p></div>
+<div class="se"><b>衛兵</b><p>殿下に当てるなよ！</p><p>男のほうだけを狙え！</p></div>
+<div class="se"><b>ハンナ</b><p>どいてください！</p></div>
+<div class="ji"><b>（地の文）</b><p>斧が衛兵を弾いた――</p></div>
+<div class="se"><b>アレン</b><p>ハンナ！？</p><p>なんでここにいるんだ。</p></div>
+<div class="se"><b>ハンナ</b><p>クルトさんに叩き起こされました！</p><p>四半刻前です。</p></div>
+<div class="se"><b>「隊長が馬鹿をやる」って、それだけ言われて。</b></div>
+<div class="se"><b>クルト</b><p>俺は詰所にいると言ったはずだがな。</p></div>
+<div class="se"><b>アレン</b><p>……クルト。</p></div>
+<div class="se"><b>クルト</b><p>言っとくけどな、俺は何も聞いてない。</p><p>勝手に来ただけだ。</p><p>だから隊長の責任にはならん。</p></div>
+<div class="se"><b>アレン</b><p>なるだろ、普通に。</p></div>
+<div class="se"><b>クルト</b><p>ならん。</p><p>俺がそう言い張るから大丈夫だ。</p></div>
+<div class="se"><b>ベルント</b><p>はっはっは！　いい夜だな！</p><p>二十年でいちばん寝覚めが悪い！</p></div>
+<div class="se"><b>ヨナス</b><p>ボク、まだ半分寝てます。</p><p>……いま人を撃ちましたけど、夢だといいなあ。</p></div>
+<div class="se"><b>グレーテ</b><p>殿下、お怪我はありませんか？</p><p>顔色が、昼よりよくありません。</p></div>
+<div class="se"><b>リンデ</b><p>平気です。</p><p>みなさん、どうしてここに？</p></div>
+<div class="se"><b>クルト</b><p>あとで説明します！</p><p>いまは前が塞がってるんで！</p></div>
+<div class="se"><b>ベルント</b><p>右だ、右から来るぞ！</p><p>ハンナ、いったん下がれ！</p></div>
+<div class="se"><b>ハンナ</b><p>下がりません！</p><p>この先を抜けないと、外へ出られないんでしょう！</p></div>
+<div class="se"><b>クルト</b><p>抜けるのは道じゃない、人だ！</p><p>突っ込むな、押し返せ！</p></div>
+<div class="se"><b>ヨナス</b><p>上です！　柱の陰に一人！</p><p>弓を持ってます！</p></div>
+<div class="se"><b>アレン</b><p>ヨナス、頼む！</p><p>グレーテは殿下から離れないでくれ！</p></div>
+<div class="se"><b>グレーテ</b><p>は、はい！</p><p>殿下、こちらへ！</p></div></div>
+<h3>自動イベント3（リンデが攻撃を受ける）</h3>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>槍の柄がリンデをかすめた――</p></div>
+<div class="se"><b>リンデ</b><p>っ。</p></div>
+<div class="se"><b>アレン</b><p>殿下！</p></div>
+<div class="se"><b>リンデ</b><p>平気です。それより、手を。</p><p>剣を貸してください。早く。</p></div>
+<div class="se"><b>アレン</b><p>え、何ですか？</p></div>
+<div class="ji"><b>（地の文）</b><p>リンデがアレンの剣に触れた――</p><p>刃が淡く灯る――</p></div>
+<div class="se"><b>アレン</b><p>うわ。</p></div>
+<div class="se"><b>リンデ</b><p>魔力を渡しました。</p><p>中の力が尽きかけていましたから。</p></div>
+<div class="se"><b>アレン</b><p>尽きるとどうなるんですか？</p></div>
+<div class="se"><b>リンデ</b><p>ただの鉄に戻ります。</p></div>
+<div class="se"><b>壊れはしません。力が戻れば、また使えます。</b></div>
+<div class="se"><b>アレン</b><p>知りませんでした。</p><p>四年も腰に下げてたのに。</p></div>
+<div class="se"><b>リンデ</b><p>魔力を渡せるのは、大陸でわたしだけです。</p><p>だから、誰もこれを教えられません。</p></div>
+<div class="se"><b>アレン</b><p>……いまの、痛かったですよね。</p></div>
+<div class="se"><b>リンデ</b><p>少しだけです。</p></div>
+<div class="se"><b>アレン</b><p>少しって、どのくらいですか？</p></div>
+<div class="se"><b>リンデ</b><p>……言わないとだめですか？</p></div>
+<div class="se"><b>アレン</b><p>だめです。</p></div>
+<div class="se"><b>リンデ</b><p>……針を刺したくらいです。</p><p>本当です。</p></div>
+<div class="se"><b>アレン</b><p>もうやめてください。</p></div>
+<div class="se"><b>リンデ</b><p>いやです。</p><p>わたしにできることは、このくらいしかないので。</p></div></div>
+<h3>自動イベント4（階段に到達）</h3>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>東の階段――</p></div>
+<div class="se"><b>アレン</b><p>降ります。足元に気をつけてください。</p><p>この階段、下の三段が擦り減ってるので。</p></div>
+<div class="se"><b>リンデ</b><p>よくご存じですね。</p></div>
+<div class="se"><b>アレン</b><p>四年通いましたから。</p></div>
+<div class="ji"><b>（地の文）</b><p>背後から足音が増えていく――</p></div>
+<div class="se"><b>アレン</b><p>クルト。人数を教えてくれ。</p><p>誰が来て、誰が来てないかだ。</p></div>
+<div class="se"><b>クルト</b><p>俺を入れて五人。ラルフとオットーが来てない。</p></div>
+<div class="se"><b>アレン</b><p>……声はかけたのか？</p></div>
+<div class="se"><b>クルト</b><p>かけた。</p><p>ラルフは黙って首を振った。</p><p>オットーは「隊長を止めろ」だとさ。</p></div>
+<div class="se"><b>アレン</b><p>止めなくていいのか？</p></div>
+<div class="se"><b>クルト</b><p>止めて止まるならとっくに止めてる。</p><p>四年見てりゃ分かるんだよ！</p><p>止まらんと思ったから、先に人を集めた。</p></div>
+<div class="se"><b>ベルント</b><p>隊長。一つだけいいか？</p></div>
+<div class="se"><b>俺たちは五日後に駐屯地へ行くだけだ。</b><p>黙って立ってりゃ、誰も罰されん。</p></div>
+<div class="se"><b>アレン</b><p>分かってる。</p><p>だから、ここで別れてくれていい。</p></div>
+<div class="se"><b>ヨナス</b><p>いま言われても困りますよ。</p><p>もう三人殴っちゃいましたし。</p></div>
+<div class="se"><b>ハンナ</b><p>あたし四人です！</p><p>ちゃんと見てました！</p></div>
+<div class="se"><b>クルト</b><p>数を競うな。</p></div></div>
+<h3>会話イベント（チュートリアル「供魔とMP」）</h3>
+<div class="serif"><div class="se"><b>リンデ</b><p>クルトさん。</p><p>あなたの剣、中の力が減っています。</p></div>
+<div class="se"><b>クルト</b><p>うおっ、他人の剣でも分かるんですか！？</p></div>
+<div class="se"><b>リンデ</b><p>見れば分かります。</p><p>尽きる前に言ってください。渡せますので。</p></div>
+<div class="se"><b>クルト</b><p>渡せる？</p><p>……いや待ってください。それができるのは殿下だけでしょう。</p></div>
+<div class="se"><b>リンデ</b><p>はい。だから言ってください。</p></div>
+<div class="se"><b>クルト</b><p>俺、四年のあいだに三回は鉄に戻してますよ。</p><p>そのたびに棒で殴るみたいに戦ってました。</p></div>
+<div class="se"><b>リンデ</b><p>もう、しなくていいです。</p></div></div>
+<h3>場所イベント（皇女の部屋の前）</h3>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>開いたままの扉――</p><p>台の上に、作りかけの剣がひとつ――</p></div>
+<div class="se"><b>クルト</b><p>……作りかけだ。</p><p>置いていくんですか？</p></div>
+<div class="se"><b>リンデ</b><p>置いていきます。</p><p>あれ、わたしのじゃないので。</p></div></div>
+<h3>終了イベント</h3>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>階段を降りる――</p></div>
+<div class="se"><b>クルト</b><p>隊長。どこまで行く気だ？</p></div>
+<div class="se"><b>アレン</b><p>とりあえず城の外だ。</p></div>
+<div class="se"><b>クルト</b><p>その先は？</p></div>
+<div class="se"><b>アレン</b><p>……考えてない。</p></div>
+<div class="se"><b>クルト</b><p>おい。</p></div>
+<div class="se"><b>アレン</b><p>すまん。</p></div>
+<div class="se"><b>クルト</b><p>まあいいや。走るぞ！</p></div></div>
+<hr>
+<h2 id="2-2">2-2 帝国の城下<a class="anchor" href="#2-2">#</a></h2>
+<div class="tw"><table><thead><tr><th>項目</th><th>中身</th></tr></thead><tbody><tr><td>勝利条件</td><td>リンデが市門を抜ける</td></tr><tr><td>敗北条件</td><td>リンデの戦闘不能／味方3人以上の戦闘不能</td></tr><tr><td>敵</td><td>14体（帝国の衛兵）</td></tr></tbody></table></div>
+<p><strong>残る側の理屈を、正しいものとして書きます。</strong> 交代に従えば全員が無事なので、<strong>付いてこないほうが筋が通っています。</strong></p>
+<h3>開幕イベント</h3>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>皇城の裏門から城下へ――</p><p>二人が、門の内側に立っていた――</p></div>
+<div class="se"><b>ラルフ</b><p>……隊長。</p></div>
+<div class="se"><b>アレン</b><p>ラルフ。オットーも。</p></div>
+<div class="se"><b>ラルフ</b><p>クルトさんから聞きました。</p><p>四半刻ほど前です。</p></div>
+<div class="se"><b>……走ってきたんですけど、ここで足が止まって。</b></div>
+<div class="se"><b>アレン</b><p>分かってる。</p></div>
+<div class="se"><b>ラルフ</b><p>俺、田舎に弟が三人いて。</p><p>仕送りが止まると、あいつら食えなくなるんです。</p><p>上の子で、まだ十なんですよ。</p></div>
+<div class="se"><b>アレン</b><p>末の子が去年の冬に熱を出したって言ってたな。</p><p>もう走れるようになったか？</p></div>
+<div class="se"><b>ラルフ</b><p>……覚えてたんですか。</p></div>
+<div class="se"><b>アレン</b><p>三人だと聞いた。名前も聞いた。</p><p>残れ。それでいい。</p></div>
+<div class="se"><b>ラルフ</b><p>……すみません。</p></div>
+<div class="se"><b>アレン</b><p>謝るな。おまえの判断は正しい。</p><p>俺がおまえの立場でも、たぶん残る。</p></div>
+<div class="se"><b>オットー</b><p>正しくないですよ。</p></div>
+<div class="se"><b>アレン</b><p>オットー。</p></div>
+<div class="se"><b>オットー</b><p>隊長のやってることが正しくないって言ってるんです。</p></div>
+<div class="se"><b>俺たちは五日後に駐屯地へ行く。それだけです。</b><p>誰も死なないし、誰も罰されない。</p></div>
+<div class="se"><b>クルト</b><p>言うじゃねえか。</p></div>
+<div class="se"><b>オットー</b><p>事実でしょう。</p><p>黙って立ってりゃ全員無事だったんですよ。</p><p>それを壊してるのは隊長です。</p></div>
+<div class="se"><b>アレン</b><p>分かってる。</p></div>
+<div class="se"><b>オットー</b><p>……認めるんですか。</p></div>
+<div class="se"><b>アレン</b><p>認める。</p><p>でも、壊さないほうを選べなかった。</p></div>
+<div class="se"><b>オットー</b><p>殿下は帝国の要です。</p><p>連れ出せば国境が動きます。東も北も南も待ってるんですよ。</p></div>
+<div class="se"><b>そのとき死ぬのは俺たちじゃない。城下の連中です。</b></div>
+<div class="se"><b>アレン</b><p>知ってる。</p></div>
+<div class="se"><b>オットー</b><p>知っててやるんですか！？</p></div>
+<div class="se"><b>アレン</b><p>ああ。</p></div>
+<div class="se"><b>オットー</b><p>……俺は残ります。</p><p>次に会ったら斬りますよ。</p></div>
+<div class="se"><b>アレン</b><p>そうしろ。</p><p>おまえが斬りに来るなら、正面からだ。</p></div>
+<div class="se"><b>オットー</b><p>……。</p></div>
+<div class="se"><b>ラルフ</b><p>隊長。一つだけいいですか。</p></div>
+<div class="se"><b>アレン</b><p>言ってくれ。</p></div>
+<div class="se"><b>ラルフ</b><p>……俺たち、追う側に回されると思います。</p><p>三日もしないうちに。</p></div>
+<div class="se"><b>アレン</b><p>だろうな。</p></div>
+<div class="se"><b>ラルフ</b><p>そのとき手加減はしません。</p><p>できないんです。見てる奴がいるので。</p></div>
+<div class="se"><b>アレン</b><p>分かってる。</p><p>おまえが撃つなら、俺が避ける。それでいい。</p></div>
+<div class="se"><b>ラルフ</b><p>……はい。</p></div>
+<div class="ji"><b>（地の文）</b><p>二人は門の内側から動かなかった――</p></div>
+<div class="se"><b>ハンナ</b><p>……あの二人。</p></div>
+<div class="se"><b>ベルント</b><p>言っていいぞ。</p></div>
+<div class="se"><b>あいつらは残るほうを選んだ。俺たちは行くほうを選んだ。</b><p>どっちも選んだんだ。それだけさ！</p></div>
+<div class="se"><b>ハンナ</b><p>……はい。</p></div>
+<div class="se"><b>グレーテ</b><p>あの、ベルントさん。</p><p>わたし、まだ分かってないんですけど。</p><p>わたしたちは何のために行くんですか？</p></div>
+<div class="se"><b>ベルント</b><p>宰相に殿下を殺させないためだ。</p></div>
+<div class="se"><b>グレーテ</b><p>……殺す。</p></div>
+<div class="se"><b>クルト</b><p>街道に賊を寄越した男が、護衛の交代を通したんですよ。</p><p>それだけ分かってりゃ十分です。</p></div>
+<div class="se"><b>グレーテ</b><p>……はい。分かりました。</p></div>
+<div class="se"><b>ハンナ</b><p>あたし、話が半分も分かってません！</p><p>でも行きます！</p></div>
+<div class="se"><b>ヨナス</b><p>ボクは八割くらい分かってますけど、</p><p>分かったぶんだけ帰りたくなってます。</p></div>
+<div class="se"><b>クルト</b><p>帰れ。</p></div>
+<div class="se"><b>ヨナス</b><p>帰りませんってば！</p><p>その顔やめてください！</p></div>
+<div class="se"><b>ベルント</b><p>はっはっは！　まあ待て。</p></div>
+<div class="se"><b>俺は行くが、一つだけ言っておく。</b><p>城下の三本目の路地に、俺の家があるんだ。</p></div>
+<div class="se"><b>ハンナ</b><p>え、ご家族が！</p></div>
+<div class="se"><b>ベルント</b><p>別れた女房と娘だ。</p><p>娘は俺の顔を覚えてないだろうな。</p><p>別れたとき、まだ抱いて運べる背丈だった。</p></div>
+<div class="se"><b>グレーテ</b><p>……寄られますか？</p></div>
+<div class="se"><b>ベルント</b><p>寄らん。</p><p>いま顔を見せたら、あいつらまで追われる。</p><p>だから行く。それだけだ！</p></div>
+<div class="se"><b>リンデ</b><p>ベルントさん。</p></div>
+<div class="se"><b>ベルント</b><p>はい、殿下。</p></div>
+<div class="se"><b>リンデ</b><p>わたしのせいで、家に寄れないんですね。</p><p>二本手前まで来て、通り過ぎるんですね。</p></div>
+<div class="se"><b>ベルント</b><p>違いますな。</p><p>俺が寄らんと決めただけです。</p></div>
+<div class="se"><b>殿下のせいにされると、俺が決めた分がなくなっちまう。</b></div>
+<div class="se"><b>リンデ</b><p>……はい。</p></div>
+<div class="se"><b>ベルント</b><p>そうです。</p><p>二十年もやってると、それくらいは言えるようになる！</p></div>
+<div class="ji"><b>（地の文）</b><p>城の鐘が鳴った――</p></div>
+<div class="se"><b>クルト</b><p>鳴ったな。市門が閉まるぞ！</p></div>
+<div class="se"><b>アレン</b><p>走ってください！</p></div></div>
+<h3>自動イベント1（1ターン開始）</h3>
+<div class="serif"><div class="se"><b>衛兵</b><p>城下の通りを封鎖しろ！</p><p>皇女殿下がさらわれた！</p><p>逆賊は六名だ、見つけ次第捕らえろ！</p></div>
+<div class="se"><b>ハンナ</b><p>さらわれた！？</p><p>殿下、自分で歩いてますけど！</p></div>
+<div class="se"><b>クルト</b><p>城がそう触れ回ってるんだよ。</p></div>
+<div class="se"><b>ヨナス</b><p>誰が触れ回ったんです？</p><p>まだ半刻も経ってませんよ。</p></div>
+<div class="se"><b>クルト</b><p>誰でもいい。</p><p>城の中で起きたことは、城が決めた形で外に出る。</p><p>俺たちが何を言っても、そっちが先に着く。</p></div>
+<div class="se"><b>グレーテ</b><p>殿下はご自分の足で歩いておられます！</p></div>
+<div class="se"><b>アレン</b><p>言っても通らないんだ。</p><p>いまは走るほうが早い。</p></div>
+<div class="se"><b>リンデ</b><p>……わたしが歩いていると、</p><p>みなさんの罪が重くなりますね。</p></div>
+<div class="se"><b>アレン</b><p>殿下。</p></div>
+<div class="se"><b>リンデ</b><p>はい。</p></div>
+<div class="se"><b>アレン</b><p>その計算はあとにしてください。</p><p>いまは走ってください。</p></div>
+<div class="se"><b>リンデ</b><p>……はい。</p></div></div>
+<h3>自動イベント2（4ターン開始）</h3>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>市門の落とし格子が下がり始めた――</p></div>
+<div class="se"><b>ヨナス</b><p>門が閉まります！</p></div>
+<div class="se"><b>ベルント</b><p>格子は四段だ。</p><p>四段目が落ちたら通れん。いま一段！</p></div>
+<div class="se"><b>ハンナ</b><p>あと三段！</p><p>どれくらい保ちますか！</p></div>
+<div class="se"><b>ベルント</b><p>一段落ちるのに、十かぞえるくらいだ。</p><p>三十で通れなくなるぞ！</p></div>
+<div class="se"><b>ハンナ</b><p>走る！</p></div>
+<div class="se"><b>アレン</b><p>列を崩さないでくれ。</p><p>殿下を真ん中に。</p><p>ヨナス、後ろを見ていてくれ。</p></div>
+<div class="se"><b>ヨナス</b><p>見てます。</p><p>追ってくるのは十一……いや、十三です。</p><p>増えました。門から出てきます。</p></div>
+<div class="se"><b>クルト</b><p>門から出てきたってことは、あいつらは市門を通れる側だ。</p><p>俺たちだけが締め出される勘定だぞ。</p></div>
+<div class="se"><b>グレーテ</b><p>殿下、お手を。</p></div>
+<div class="se"><b>リンデ</b><p>……ありがとう。</p></div>
+<div class="se"><b>グレーテ</b><p>冷たい！</p><p>こんなに冷えて、いつからですか？</p></div>
+<div class="se"><b>リンデ</b><p>平気です。</p></div>
+<div class="se"><b>グレーテ</b><p>平気じゃありません。</p><p>あとで診ます。逃げないでくださいね。</p></div>
+<div class="se"><b>リンデ</b><p>逃げています。いまも。</p></div>
+<div class="se"><b>グレーテ</b><p>……あ。</p><p>そういう意味じゃなくて！</p></div></div>
+<h3>自動イベント3（味方の半数が到達）</h3>
+<div class="serif"><div class="se"><b>クルト</b><p>半分抜けた。隊長、どうする！</p></div>
+<div class="se"><b>アレン</b><p>待つ。</p></div>
+<div class="se"><b>クルト</b><p>格子が下りるぞ！</p></div>
+<div class="se"><b>アレン</b><p>待つ。</p><p>置いていくのは、今夜はなしだ。</p></div>
+<div class="se"><b>ベルント</b><p>いいぞ隊長、それでいい！</p></div>
+<div class="se"><b>クルト</b><p>……へいへい。</p><p>おい遅い、走れ！　二段目だぞ！</p></div></div>
+<h3>自動イベント4（市門に到達）</h3>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>最後の一人が格子をくぐった――</p><p>背後で、四段目が落ちた――</p></div>
+<div class="se"><b>ヨナス</b><p>……間に合った。</p></div>
+<div class="se"><b>ハンナ</b><p>あたし、いま人生でいちばん走りました！</p></div>
+<div class="se"><b>ベルント</b><p>その歳でそれか！</p><p>俺は二十年で三度目だ！</p></div>
+<div class="se"><b>ハンナ</b><p>うるさいです！</p></div>
+<div class="ji"><b>（地の文）</b><p>城下の灯が、背後に残る――</p></div>
+<div class="se"><b>リンデ</b><p>……あれが城下ですか？</p></div>
+<div class="se"><b>ハンナ</b><p>はい。あたし、あそこで生まれました。</p><p>鍛冶屋の並びの、三軒目です。</p></div>
+<div class="se"><b>ベルント</b><p>おい待て、それは俺の家の二本手前だぞ！</p><p>近所に住んでて気づかんかったのか！</p></div>
+<div class="se"><b>ハンナ</b><p>気づきませんよ！</p><p>あたし、ベルントさんの家知りませんもん！</p></div>
+<div class="se"><b>ヨナス</b><p>ボクは村から出てきました。</p><p>初めて城下に着いた日、屋根が多すぎて、</p><p>数えるのを途中でやめました。</p></div>
+<div class="se"><b>グレーテ</b><p>わたしは西の町です。</p><p>治癒院に置いてもらっていました。</p><p>傷を診るのは、そこで覚えました。</p></div>
+<div class="se"><b>リンデ</b><p>……みなさん、どこかから来られたんですね。</p></div>
+<div class="se"><b>クルト</b><p>どこかから来て、あそこに集まったんですよ。</p><p>城の兵なんて、だいたいそんなもんです。</p></div>
+<div class="se"><b>リンデ</b><p>わたしはどこからも来ていません。</p><p>生まれてからずっと、あの城です。</p></div>
+<div class="ji"><b>（地の文）</b><p>背後の灯が、ひとつずつ小さくなっていく――</p></div>
+<div class="se"><b>ベルント</b><p>……。</p></div>
+<div class="se"><b>グレーテ</b><p>ベルントさん。</p></div>
+<div class="se"><b>ベルント</b><p>なんでもない。</p><p>三本目の路地の灯が、まだ点いてるだけだ。</p></div>
+<div class="se"><b>ハンナ</b><p>……消えるまで待ちますか？</p></div>
+<div class="se"><b>ベルント</b><p>待たん。</p><p>点いてるうちに行く。</p><p>消えるまで待つと、動けなくなる。</p></div>
+<div class="se"><b>クルト</b><p>……行くぞ。</p></div>
+<div class="se"><b>ベルント</b><p>ああ。</p></div></div>
+<h3>会話イベント（支援・クルトとベルント）</h3>
+<div class="serif"><div class="se"><b>クルト</b><p>なあ、なんで来た？</p><p>あんたは残っても誰にも文句を言われんぞ。</p></div>
+<div class="se"><b>ベルント</b><p>隊長が困った顔をしてたからだ。</p></div>
+<div class="se"><b>クルト</b><p>それだけか？</p></div>
+<div class="se"><b>ベルント</b><p>四年、あの顔を見てきた。</p><p>今日のは、少し違った。</p><p>あれは困ってるんじゃなくて、決めた顔だ。</p></div>
+<div class="se"><b>クルト</b><p>……よく見てるな。</p></div>
+<div class="se"><b>ベルント</b><p>二十年で、若いのを何人も死なせた。</p><p>決めた顔だけは、見逃さんようになった。</p></div></div>
+<h3>会話イベント（チュートリアル「地形の効果」）</h3>
+<div class="serif"><div class="se"><b>クルト</b><p>路地に入れ。広場で受けるな。</p></div>
+<div class="se"><b>ハンナ</b><p>広いほうが振りやすいですけど！</p></div>
+<div class="se"><b>クルト</b><p>振りやすいのは向こうもだ。</p></div>
+<div class="se"><b>狭い所は、こっちが強い。囲まれずに済む。</b><p>三人までしか来られん場所を探せ。</p></div>
+<div class="se"><b>ハンナ</b><p>……なるほど。</p><p>狭いと強い。覚えました。</p></div></div>
+<h3>場所イベント（詰所の前）</h3>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>封鎖の命令書が貼られている――</p><p>署名の欄は、判で潰されていた――</p></div>
+<div class="se"><b>ヨナス</b><p>誰が出した命令か、書いてないですね。</p><p>潰し方が丁寧です。</p></div>
+<div class="se"><b>クルト</b><p>急いで潰したんじゃないな。</p><p>最初から名前を入れずに回した文書だ。</p></div>
+<div class="se"><b>こういうのは、書いた奴が残らんように作ってある。</b></div>
+<div class="se"><b>ヨナス</b><p>……よくあるんですか、こういうの？</p></div>
+<div class="se"><b>クルト</b><p>あってたまるか。</p></div></div>
+<h3>終了イベント</h3>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>城下の外――</p></div>
+<div class="se"><b>アレン</b><p>東へ向かいます。</p><p>夜明けまでに街道を外れます。</p></div>
+<div class="se"><b>リンデ</b><p>東ですか。</p></div>
+<div class="se"><b>アレン</b><p>西と南は関所が並んでるので。</p><p>東なら国境沿いまで出られます。</p><p>そのぶん遠回りになりますけど。</p></div>
+<div class="se"><b>リンデ</b><p>……西は、戻りに通ったばかりですね。</p></div>
+<div class="se"><b>アレン</b><p>はい。</p><p>だから、いちばん先に調べられます。</p></div></div>
+<hr>
+<h2 id="2-3">2-3 城門<a class="anchor" href="#2-3">#</a></h2>
+<div class="tw"><table><thead><tr><th>項目</th><th>中身</th></tr></thead><tbody><tr><td>勝利条件</td><td>左右の巻き上げ機を2つとも押さえた状態で、リンデが門を抜ける</td></tr><tr><td>敗北条件</td><td>リンデの戦闘不能／アレンの戦闘不能</td></tr><tr><td>敵</td><td>16体（帝国の門衛）</td></tr></tbody></table></div>
+<p><strong>第3版で監軍をジギスムントへ差し替えました</strong>（旧はコンラート）。<strong>彼は宰相の息子で、殺す側です。</strong> 表向きは無傷で連れ戻す命令なので、<strong>混戦にして事故に見せかけようとします。</strong></p>
+<p><strong>倒しても死にません。</strong> 逃げる敵の型をここで教えます。</p>
+<h3>開幕イベント</h3>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>帝都　東の城門――</p><p>門の前に、門衛が並んでいる――</p></div>
+<div class="se"><b>ヨナス</b><p>十六です。</p><p>門の上にもいます。三つ。</p></div>
+<div class="se"><b>ハンナ</b><p>数えるの早いですね！</p></div>
+<div class="se"><b>ヨナス</b><p>元狩人ですから。</p><p>鹿の群れと同じですよ。</p></div>
+<div class="se"><b>……あと、上の三つはこっち見てません。</b><p>外を見てます。</p></div>
+<div class="se"><b>クルト</b><p>外だと？</p></div>
+<div class="se"><b>ヨナス</b><p>街道のほうです。</p><p>誰か来るのを待ってる目つきでした。</p></div>
+<div class="se"><b>ベルント</b><p>先回りされてるな。</p><p>俺たちが東へ出るのを、誰かが読んでる。</p><p>城を出た時点で読まれてたんだ。</p></div>
+<div class="ji"><b>（地の文）</b><p>門の中央に、大柄な男――</p><p>肩に大型の斧　両袖を肘まで捲っている――</p></div>
+<div class="se"><b>リンデ</b><p>……ジギスムント。</p></div>
+<div class="se"><b>ハンナ</b><p>お知り合いですか？</p></div>
+<div class="se"><b>リンデ</b><p>宰相のご子息です。</p><p>小さいころ、宮廷で何度か会いました。</p></div>
+<div class="se"><b>ハンナ</b><p>どんな人ですか。</p></div>
+<div class="se"><b>リンデ</b><p>……使用人を蹴っていました。</p></div>
+<div class="se"><b>ジギスムント</b><p>ジークリンデ殿下。</p><p>こんな刻限に、こんな所で。</p><p>お風邪を召されますよ。</p></div>
+<div class="se"><b>リンデ</b><p>……。</p></div>
+<div class="se"><b>ジギスムント</b><p>父から言付かっております。</p><p>殿下がお戻りになるなら、今夜のことは一つも起きていない。</p><p>そう申し上げろと。</p></div>
+<div class="se"><b>リンデ</b><p>お父上は、なんという方ですか？</p></div>
+<div class="se"><b>ジギスムント</b><p>オトマール・フォン・エーレンフェルス。</p><p>帝国の宰相にございます。</p><p>殿下も、お名前くらいはご存じかと。</p></div>
+<div class="ji"><b>（地の文）</b><p>小隊の誰も動かなかった――</p></div>
+<div class="se"><b>ハンナ</b><p>……いま。</p></div>
+<div class="se"><b>クルト</b><p>黙ってろ。</p></div>
+<div class="se"><b>リンデ</b><p>その名なら、先日聞きました。</p><p>名前は前から知っていました。</p><p>どういう方かは、知りませんでしたけど。</p></div>
+<div class="se"><b>ジギスムント</b><p>どちらで？</p></div>
+<div class="se"><b>リンデ</b><p>街道です。</p><p>賊の頭が、死ぬ前に言いました。</p></div>
+<div class="se"><b>ジギスムント</b><p>賊の申すことでございます。</p></div>
+<div class="se"><b>金さえ積めば、どこの誰の名でも出てまいります。</b><p>私の名でも出ましょう。安いものです。</p></div>
+<div class="se"><b>リンデ</b><p>積んだ方をご存じですか？</p></div>
+<div class="se"><b>ジギスムント</b><p>……殿下。</p></div>
+<div class="se"><b>外套をお持ちしました。お召しください。</b><p>夜は冷えます。</p></div>
+<div class="se"><b>リンデ</b><p>結構です。</p></div>
+<div class="se"><b>ジギスムント</b><p>お召しください。</p></div>
+<div class="se"><b>リンデ</b><p>結構です。</p><p>冷えるのには慣れております。</p></div>
+<div class="se"><b>ジギスムント</b><p>……そうですか。</p></div>
+<div class="se"><b>ジギスムント</b><p>おい、しまえ。</p><p>親切にしてやったんだぞ。</p></div>
+<div class="ji"><b>（地の文）</b><p>ジギスムントが門衛長を呼んだ――</p></div>
+<div class="se"><b>門衛長</b><p>はっ。</p></div>
+<div class="se"><b>ジギスムント</b><p>殿下をお連れしろ。</p><p>連れの六つは殺していい。</p><p>死体は門の外へ放っておけ。</p></div>
+<div class="se"><b>ハンナ</b><p>六つ！？</p><p>あたしたち、六つですか！</p></div>
+<div class="se"><b>ジギスムント</b><p>数え違えましたか。</p><p>……五つと、一つですね。失礼しました。</p></div>
+<div class="se"><b>クルト</b><p>何が違うんだ、それは？</p></div>
+<div class="se"><b>ジギスムント</b><p>一つは小隊長でございます。</p><p>値が違いますので。</p><p>高いという意味ではございません。</p></div>
+<div class="se"><b>ベルント</b><p>おい若造。</p><p>俺は二十年この国で兵をやってる。</p></div>
+<div class="se"><b>人を数で呼ぶ将のもとで、</b><p>まともに終わった戦を見たことがない！</p></div>
+<div class="se"><b>ジギスムント</b><p>二十年。</p><p>……長いな。</p></div>
+<div class="se"><b>ジギスムント</b><p>二十年も兵をやって、まだ小隊付きか。</p><p>出世できん奴ほど、口が長い。</p></div>
+<div class="se"><b>ベルント</b><p>……。</p></div>
+<div class="se"><b>ジギスムント</b><p>そのあいだに何人埋めた。</p><p>覚えてないだろうな。</p></div>
+<div class="ji"><b>（地の文）</b><p>ジギスムントがアレンの前へ来た――</p></div>
+<div class="se"><b>ジギスムント</b><p>小隊長どの。</p><p>グラーヴェンと申されましたか。</p></div>
+<div class="se"><b>アレン</b><p>はい。</p></div>
+<div class="se"><b>ジギスムント</b><p>聞かぬ家名でございます。</p><p>どちらの領地で。</p></div>
+<div class="se"><b>アレン</b><p>東です。</p></div>
+<div class="se"><b>ジギスムント</b><p>東。……ああ、あのあたりですか。</p><p>村がいくつか、まだ残っておりましたな。</p></div>
+<div class="se"><b>アレン</b><p>……。</p></div>
+<div class="se"><b>ジギスムント</b><p>いえ。ただの世間話でございます。</p></div>
+<div class="se"><b>東はこれから兵が通ります。</b><p>通れば、村はいくつか減りましょう。</p></div>
+<div class="se"><b>クルト</b><p>（隊長）</p></div>
+<div class="se"><b>アレン</b><p>（分かってる）</p></div>
+<div class="se"><b>ジギスムント</b><p>そちらの五つ。</p></div>
+<div class="se"><b>ハンナ</b><p>五つって言うのやめてください！</p></div>
+<div class="se"><b>ジギスムント</b><p>失礼いたしました。五名。</p></div>
+<div class="se"><b>みなさんは、今夜ここにいなかったことにできます。</b><p>名簿はまだ書き替えられますので。</p></div>
+<div class="se"><b>ベルント</b><p>ほう。名簿ときたか。</p><p>二十年で初めて聞く口説き方だ！</p></div>
+<div class="se"><b>ジギスムント</b><p>父の裁可があれば、それで済みます。</p><p>いかがです。まだ間に合いますが。</p></div>
+<div class="se"><b>クルト</b><p>断る。</p></div>
+<div class="se"><b>ジギスムント</b><p>即答でございますか。</p></div>
+<div class="se"><b>クルト</b><p>考える必要がないからな。</p></div>
+<div class="se"><b>ジギスムント</b><p>……もったいない。</p><p>あなたは使える方だ。</p></div>
+<div class="se"><b>クルト</b><p>使われる気がないんだよ。</p><p>四年、隊長に使われてきた。</p><p>もう一人ぶん増やす気はない。</p></div>
+<div class="se"><b>ジギスムント</b><p>そちらの弓の方。</p><p>村から出てこられたそうですな。</p></div>
+<div class="se"><b>ヨナス</b><p>……なんで知ってるんですか？</p></div>
+<div class="se"><b>ジギスムント</b><p>名簿を読みました。</p><p>人の来歴を読むのが好きでしてね。</p><p>今夜のうちなら、村へ戻れますよ。</p></div>
+<div class="se"><b>ヨナス</b><p>……。</p></div>
+<div class="se"><b>ジギスムント</b><p>迷われましたな。</p></div>
+<div class="se"><b>ヨナス</b><p>迷いましたよ。</p><p>迷ったから、残ります。</p></div>
+<div class="se"><b>ジギスムント</b><p>筋が通っておりませんが。</p></div>
+<div class="se"><b>ヨナス</b><p>通ってなくていいです。</p><p>ボク、そんなに立派じゃないので。</p></div>
+<div class="se"><b>門衛長</b><p>閣下。</p><p>陛下のご下命は、殿下を無傷でお連れすることと承っております。</p></div>
+<div class="se"><b>ジギスムント</b><p>無傷でお連れする。そのとおりだ。</p></div>
+<div class="se"><b>門衛長</b><p>では、混戦は避けたく存じます。</p><p>殿下に流れ矢が当たれば、我らの首が飛びます。</p><p>私の首では足りません。ここの十九人ぶんです。</p></div>
+<div class="se"><b>ジギスムント</b><p>当たらんよ。</p></div>
+<div class="se"><b>……当たったなら、それは連れ出した男のせいだ。</b><p>そうだろう。</p></div>
+<div class="se"><b>門衛長</b><p>……はっ。</p></div>
+<div class="ji"><b>（地の文）</b><p>門衛の列が、じりと詰めた――</p></div>
+<div class="se"><b>リンデ</b><p>グラーヴェン。</p></div>
+<div class="se"><b>アレン</b><p>はい。</p></div>
+<div class="se"><b>リンデ</b><p>いまの話、聞こえましたか？</p></div>
+<div class="se"><b>アレン</b><p>聞こえました。</p></div>
+<div class="se"><b>リンデ</b><p>……離れないでください。</p></div>
+<div class="se"><b>アレン</b><p>はい。</p></div>
+<div class="se"><b>ジギスムント</b><p>殿下。最後にもう一度お伺いします。</p><p>お戻りになりますか？</p></div>
+<div class="se"><b>リンデ</b><p>いいえ。</p></div>
+<div class="se"><b>ジギスムント</b><p>……そうですか。</p></div>
+<div class="se"><b>では、記録にはこう残します。</b><p>皇女殿下は、逆賊に連れ去られた。</p></div>
+<div class="se"><b>リンデ</b><p>好きに書いてください。</p><p>わたしは、自分の足で歩いて出ます。</p></div>
+<div class="se"><b>ジギスムント</b><p>書き替えますよ。</p><p>紙の上のことです。</p></div>
+<div class="se"><b>アレン</b><p>書き替えても、ここに六人いる。</p><p>見た者の数は減りません。</p></div>
+<div class="se"><b>ジギスムント</b><p>……六つ、ですね。</p></div>
+<div class="se"><b>アレン</b><p>六人だ。</p></div></div>
+<h3>自動イベント1（1ターン開始）</h3>
+<div class="serif"><div class="se"><b>門衛長</b><p>構え！</p><p>殿下を囲め、男どもは押し潰せ！</p></div>
+<div class="se"><b>門衛</b><p>押し潰せって、あの隊長ですよ！</p><p>去年の演習で、うちの隊が誰も一本取れなかった人です！</p></div>
+<div class="se"><b>門衛長</b><p>だから十六人で来ている！</p><p>怯むな、囲め！</p></div>
+<div class="se"><b>クルト</b><p>押し潰せ、だとよ！</p><p>いい趣味してるな！</p></div>
+<div class="se"><b>ベルント</b><p>やらせんよ。</p><p>俺の後ろは通さん！</p></div>
+<div class="se"><b>アレン</b><p>門は巻き上げ機で上げます。</p><p>左右に一つずつあって、二つとも回さないと上がりません。</p></div>
+<div class="se"><b>ハンナ</b><p>どこですか！</p></div>
+<div class="se"><b>ヨナス</b><p>門の両脇です。壁にくっついてる、木の櫓。</p><p>あれに人が乗ってるあいだだけ上がります。</p></div>
+<div class="se"><b>ハンナ</b><p>降りたら？</p></div>
+<div class="se"><b>ヨナス</b><p>落ちます。</p></div>
+<div class="se"><b>ハンナ</b><p>乗りっぱなしってことじゃないですか！</p></div>
+<div class="se"><b>アレン</b><p>そうです。二人は手が空きません。</p><p>残りで殿下を門まで運びます。</p></div>
+<div class="se"><b>クルト</b><p>二人が櫓に張り付くわけか。</p><p>手が減るな。</p></div>
+<div class="se"><b>アレン</b><p>きついです。</p><p>ハンナは右の櫓へ。クルト、左を頼みます。</p></div>
+<div class="se"><b>ハンナ</b><p>行ってきます！</p></div>
+<div class="se"><b>クルト</b><p>だと思ったよ！</p></div></div>
+<h3>自動イベント2（3ターン開始）</h3>
+<div class="serif"><p class="ji note">（台詞なし。門衛の増援6体をまとめて出す。行動させない）</p></div>
+<h3>自動イベント3（巻き上げ機を2つとも押さえる）</h3>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>左右の櫓が同時に軋んで、門が上がり始めた――</p></div>
+<div class="se"><b>クルト</b><p>上がったぞ！</p><p>このまま乗ってりゃ開いたままだ！</p></div>
+<div class="se"><b>ジギスムント</b><p>引き剥がせ！</p><p>櫓から引きずり下ろせ！</p></div>
+<div class="ji"><b>（地の文）</b><p>櫓へ向かう門衛はいない――</p></div>
+<div class="se"><b>ヨナス</b><p>みんな、櫓のほうを見てますよ。</p><p>手は止まってます。</p></div>
+<div class="se"><b>ハンナ</b><p>なんで動かないんですか！</p></div>
+<div class="se"><b>クルト</b><p>殿下がいるからだ。</p><p>当たるのが怖いんだよ。</p></div>
+<div class="se"><b>ベルント</b><p>王族に傷をつけた兵は、どこの国でも生きて帰れん。</p><p>あいつらは、閣下より自分の首のほうが大事なんだ。</p></div>
+<div class="se"><b>ジギスムント</b><p>何をしている！</p><p>私が命じているんだぞ！</p></div>
+<div class="se"><b>リンデ</b><p>……閣下。</p></div>
+<div class="se"><b>ジギスムント</b><p>なんでございましょう？</p></div>
+<div class="se"><b>リンデ</b><p>あなたの言うことを、誰も聞いていませんね。</p></div></div>
+<h3>自動イベント4（ジギスムントのHPが半分）</h3>
+<div class="serif"><div class="se"><b>ジギスムント</b><p>っ……！</p><p>痛い、痛い！　誰か！</p></div>
+<div class="se"><b>門衛長</b><p>閣下、お下がりを！</p></div>
+<div class="se"><b>ジギスムント</b><p>下がる！　下がるに決まっているだろう！</p><p>……斬られたぞ、私が！</p></div>
+<div class="se"><b>クルト</b><p>斬られたら痛いに決まってんだろ！</p></div>
+<div class="se"><b>ジギスムント</b><p>黙れ！</p><p>門衛長、代われ！　お前が前に出ろ！</p></div>
+<div class="ji"><b>（地の文）</b><p>ジギスムントは門の内側へ下がった――</p></div>
+<div class="se"><b>グレーテ</b><p>……あの方、腕を浅く斬られただけです。</p></div>
+<div class="se"><b>ハンナ</b><p>え。</p></div>
+<div class="se"><b>グレーテ</b><p>傷は見れば分かります。</p><p>あれは三日で塞がります。</p></div>
+<div class="se"><b>殿下は、あれより重いものを十年です。</b></div>
+<div class="se"><b>ハンナ</b><p>……。</p></div>
+<div class="se"><b>リンデ</b><p>グレーテさん。</p></div>
+<div class="se"><b>グレーテ</b><p>はい。</p></div>
+<div class="se"><b>リンデ</b><p>いまの、言わないでください。</p></div>
+<div class="se"><b>グレーテ</b><p>……申し訳ありません。</p></div>
+<div class="se"><b>リンデ</b><p>比べないでください。</p><p>わたしのほうが重くなります。</p></div></div>
+<h3>自動イベント5（門の通過）</h3>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>東の城門を抜ける――</p><p>――同じ夜　皇城 玉座の間</p></div>
+<div class="se"><b>ジークハルト</b><p>娘が門を出た。</p></div>
+<div class="se"><b>侍従長</b><p>はっ。東の街道へ向かったものと。</p></div>
+<div class="se"><b>ジークハルト</b><p>追撃隊を出す。二百。</p></div>
+<div class="se"><b>侍従長</b><p>に、二百でございますか！</p><p>賊の討伐でも五十でございます。</p></div>
+<div class="se"><b>ジークハルト</b><p>賊ではない。</p><p>オストハイム家のゲルハルトを呼べ。</p><p>それで足りなければ、次を出す。</p></div>
+<div class="se"><b>侍従長</b><p>ゲルハルト卿を。</p></div>
+<div class="se"><b>ジークハルト</b><p>あの男が一番早い。</p><p>それに、命じた通りにしか動かん。</p></div>
+<div class="se"><b>侍従長</b><p>……仰せのままに。</p></div>
+<div class="ji"><b>（地の文）</b><p>玉座の間の隅から、影が進み出た――</p><p>背が低く、礼装が長すぎる――</p></div>
+<div class="se"><b>オトマール</b><p>陛下。恐れながら。</p></div>
+<div class="se"><b>ジークハルト</b><p>オトマールか。</p></div>
+<div class="se"><b>オトマール</b><p>街道の警備は、私の管掌にございます。</p><p>殿下がお通りになる日程も、私が組みました。</p></div>
+<div class="se"><b>街道の賊も、今夜のことも、</b><p>もとを正せば私の不手際でございます。</p></div>
+<div class="se"><b>ジークハルト</b><p>そうか。</p></div>
+<div class="se"><b>オトマール</b><p>処罰は、いかようにも。</p><p>この首でよろしければ、いま置いてまいります。</p></div>
+<div class="se"><b>ジークハルト</b><p>いまは要らん。</p><p>人手が減る。</p></div>
+<div class="se"><b>オトマール</b><p>……ありがたきお言葉にございます。</p></div>
+<div class="se"><b>では、償いをさせていただきたく。</b><p>息子を監軍として出します。</p></div>
+<div class="se"><b>ジークハルト</b><p>名は。</p></div>
+<div class="se"><b>オトマール</b><p>ジギスムントと申します。</p><p>東の城門で、殿下をお止めし損ねました。</p><p>責を負わせるには、ちょうどよい機会かと。</p></div>
+<div class="se"><b>ジークハルト</b><p>好きにしろ。</p></div>
+<div class="se"><b>オトマール</b><p>はっ。</p></div>
+<div class="ji"><b>（地の文）</b><p>宰相が下がっていく――</p><p>床を擦る裾の音だけが、しばらく残った――</p></div>
+<div class="se"><b>侍従長</b><p>……陛下。</p></div>
+<div class="se"><b>ジークハルト</b><p>言うな。</p></div>
+<div class="se"><b>侍従長</b><p>は。</p></div>
+<div class="se"><b>ジークハルト</b><p>あの男は二十年ああして生きてきた。</p><p>いまさら変わらん。</p><p>変わらん者は、使い方が決まっていて楽だ。</p></div>
+<div class="se"><b>侍従長</b><p>……仰せのとおりにございます。</p></div>
+<div class="se"><b>侍従長</b><p>陛下。差し出がましいことを申し上げます。</p></div>
+<div class="se"><b>ジークハルト</b><p>言え。</p></div>
+<div class="se"><b>侍従長</b><p>殿下は、お加減がすぐれぬご様子でした。</p><p>連れ戻したのち、しばらく休ませては。</p></div>
+<div class="se"><b>ジークハルト</b><p>ならん。</p></div>
+<div class="se"><b>侍従長</b><p>……は。</p></div>
+<div class="se"><b>ジークハルト</b><p>錬成者は各国に四人か五人だ。</p><p>我が国には十四人いる。</p><p>それでも千年足りなかった。</p></div>
+<div class="se"><b>侍従長</b><p>……はい。</p></div>
+<div class="se"><b>ジークハルト</b><p>十四人は、武器を作るだけだ。</p><p>娘は、できあがった武器を強くできる。</p></div>
+<div class="se"><b>十五人目ではない。代わりがおらん。</b></div>
+<div class="se"><b>侍従長</b><p>……。</p></div>
+<div class="se"><b>ジークハルト</b><p>連れ戻せ。傷はつけるな。</p></div>
+<div class="se"><b>侍従長</b><p>……はっ。</p></div></div>
+<h3>会話イベント（支援・ハンナとヨナス）</h3>
+<div class="serif"><div class="se"><b>ハンナ</b><p>ねえヨナス。あんた、なんで来たの？</p><p>帰りたいって、さっきから三回言ってるけど。</p></div>
+<div class="se"><b>ヨナス</b><p>……数えてたからです。</p></div>
+<div class="se"><b>ハンナ</b><p>は？</p></div>
+<div class="se"><b>ヨナス</b><p>殿下が扉の中にいた日数です。</p><p>三年で、四百二十七日。</p></div>
+<div class="se"><b>ハンナ</b><p>……四百。</p></div>
+<div class="se"><b>ヨナス</b><p>最初は暇つぶしでした。</p></div>
+<div class="se"><b>ハンナ</b><p>暇つぶし。</p></div>
+<div class="se"><b>ヨナス</b><p>でも二百を超えたあたりから、暇つぶしじゃなくなって。</p></div>
+<div class="se"><b>ハンナ</b><p>……。</p></div>
+<div class="se"><b>ヨナス</b><p>だから来ました。</p></div></div>
+<h3>会話イベント（チュートリアル「増援」）</h3>
+<div class="serif"><div class="se"><b>クルト</b><p>敵が湧くときはな、まとめて出る。</p><p>一人ずつ出てくると思うなよ。</p></div>
+<div class="se"><b>ハンナ</b><p>いっぺんに！？</p></div>
+<div class="se"><b>クルト</b><p>いっぺんにだ。</p><p>だが出てきた直後は、まだ隊列が組めてない。</p></div>
+<div class="se"><b>ハンナ</b><p>その隙に何すればいいんですか？</p></div>
+<div class="se"><b>クルト</b><p>逃げるか、囲まれる前に位置を変えろ。</p></div>
+<div class="se"><b>突っ込むのだけはやめとけ。おまえのことだぞ。</b><p>組まれてからじゃ遅い。</p></div></div>
+<h3>ユニット固有イベント（ジギスムントに接触）</h3>
+<div class="serif"><div class="se"><b>ジギスムント</b><p>小隊長どの。</p><p>一つ伺ってもよろしいか？</p></div>
+<div class="se"><b>アレン</b><p>どうぞ。</p></div>
+<div class="se"><b>ジギスムント</b><p>あなたの家は、母上がお一人だそうですな。</p><p>東の領地に。</p><p>布を織っておられるとか。よく調べてございます。</p></div>
+<div class="se"><b>アレン</b><p>……。</p></div>
+<div class="se"><b>ジギスムント</b><p>ご心配なさるな。</p><p>まだ何もしておりません。</p></div>
+<div class="se"><b>まだ、と申し上げました。</b></div>
+<div class="se"><b>アレン</b><p>……脅しているんだな。</p></div>
+<div class="se"><b>ジギスムント</b><p>殿下をお返しになれば、</p><p>書類は今夜のうちに握り潰せます。</p><p>父にはその力があります。</p></div>
+<div class="se"><b>アレン</b><p>あんたには無いんだな。</p></div>
+<div class="se"><b>ジギスムント</b><p>……何が言いたい？</p></div>
+<div class="se"><b>アレン</b><p>あんたは、父上の話しかしていない。</p></div></div>
+<h3>ユニット固有イベント（門衛長に接触）</h3>
+<div class="serif"><div class="se"><b>門衛長</b><p>小隊長どの。命令ですので。</p></div>
+<div class="se"><b>アレン</b><p>分かってる。</p></div>
+<div class="se"><b>門衛長</b><p>できれば、殺さないでいただきたい！</p><p>私にも家族がおります！</p></div>
+<div class="se"><b>アレン</b><p>……努力する。</p><p>あんたも、気をつけたほうがいい。</p></div></div>
+<h3>終了イベント</h3>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>夜明けの街道――</p></div>
+<div class="se"><b>ハンナ</b><p>朝だ。</p></div>
+<div class="se"><b>ヨナス</b><p>朝ですね。</p></div>
+<div class="se"><b>グレーテ</b><p>……もう、戻れないんですね。</p></div>
+<div class="se"><b>クルト</b><p>戻れないな。</p></div>
+<div class="se"><b>ベルント</b><p>よし、朝飯にするか！</p></div>
+<div class="se"><b>ハンナ</b><p>このタイミングでですか！？</p></div>
+<div class="se"><b>ベルント</b><p>この先しばらく、まともに食える場所はないぞ。</p><p>食えるときに食っておけ。二十年の教訓だ！</p></div>
+<div class="se"><b>リンデ</b><p>……あの。</p></div>
+<div class="se"><b>ベルント</b><p>はい、殿下。</p></div>
+<div class="se"><b>リンデ</b><p>わたしも、いただけますか？</p><p>外で食べたことが、ありません。</p></div>
+<div class="se"><b>ベルント</b><p>どうぞどうぞ！</p><p>といっても、干し肉と堅パンですがね！</p></div>
+<div class="se"><b>リンデ</b><p>……硬いですね。</p></div>
+<div class="se"><b>ハンナ</b><p>噛んでください、ひたすら。</p><p>顎が痛くなってきたら一人前です。</p></div>
+<div class="se"><b>ヨナス</b><p>水に浸すと少しましになりますよ。</p><p>でも味は落ちます。</p><p>ボクは浸さない派です。</p></div>
+<div class="se"><b>グレーテ</b><p>殿下、無理はなさらないでください。</p><p>喉に詰まらせると危ないです。</p></div>
+<div class="se"><b>リンデ</b><p>平気です。</p></div>
+<div class="se"><b>……おいしいです。</b></div>
+<div class="se"><b>クルト</b><p>嘘だろ。</p></div>
+<div class="se"><b>リンデ</b><p>嘘です。</p></div>
+<div class="se"><b>でも、初めて嘘をつきました。</b><p>宮殿では、その必要がありませんでした。</p></div>
+<div class="se"><b>アレン</b><p>……。</p></div>
+<div class="se"><b>ベルント</b><p>はっはっは！　上等じゃないですか！</p><p>嘘のひとつも言えないと、外じゃ生きていけません！</p></div></div>
+<footer>SRPG 一章シナリオ台本／正本は <code>.company/game/</code>／2026-08-30 時点</footer>
+</div></body></html>

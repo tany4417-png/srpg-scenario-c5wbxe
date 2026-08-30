@@ -1,0 +1,83 @@
+<!doctype html><html lang="ja"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>話者と情報設計</title><style>
+:root{--bg:#f7f4ee;--ink:#1f1c18;--sub:#6b6459;--line:#ddd6c8;--accent:#7a4a2b;--card:#fffdf8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+ font-family:"Yu Gothic","Hiragino Sans","Noto Sans JP",sans-serif;
+ line-height:1.85;font-size:16px;-webkit-text-size-adjust:100%}
+.wrap{max-width:760px;margin:0 auto;padding:24px 18px 80px}
+header.top{position:sticky;top:0;z-index:5;background:rgba(247,244,238,.94);
+ backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+header.top .in{max-width:760px;margin:0 auto;padding:10px 18px;display:flex;
+ gap:12px;align-items:baseline;flex-wrap:wrap}
+header.top a{color:var(--accent);text-decoration:none;font-size:14px}
+header.top a:hover{text-decoration:underline}
+header.top .now{font-weight:700;font-size:15px;margin-right:auto}
+h1{font-size:24px;margin:28px 0 10px;line-height:1.4}
+h2{font-size:20px;margin:44px 0 12px;padding-top:8px;border-top:2px solid var(--line);
+ line-height:1.4;scroll-margin-top:64px}
+h3{font-size:16px;margin:30px 0 8px;color:var(--accent)}
+p{margin:10px 0}
+a.anchor{margin-left:8px;color:var(--line);text-decoration:none;font-weight:400}
+h2:hover a.anchor{color:var(--accent)}
+.tw{overflow-x:auto;margin:14px 0}
+table{border-collapse:collapse;width:100%;font-size:14px;background:var(--card)}
+th,td{border:1px solid var(--line);padding:6px 9px;text-align:left;vertical-align:top}
+th{background:#f0ebe0;font-weight:700;white-space:nowrap}
+code{background:#eee8dc;padding:1px 5px;border-radius:3px;font-size:.9em}
+hr{border:0;border-top:1px solid var(--line);margin:26px 0}
+ul{margin:10px 0;padding-left:22px}
+.serif{background:var(--card);border:1px solid var(--line);border-radius:6px;
+ padding:14px 16px;margin:14px 0}
+.se{margin:0 0 14px}
+.se:last-child,.ji:last-child{margin-bottom:0}
+.se b{display:block;font-size:13px;color:var(--accent);font-weight:700;
+ letter-spacing:.04em;margin-bottom:2px}
+.se p{margin:0;padding-left:1em;text-indent:-1em}
+.ji{margin:0 0 14px;color:var(--sub)}
+.ji b{display:none}
+.ji p{margin:0}
+.ji.note{font-size:14px}
+.toc{background:var(--card);border:1px solid var(--line);border-radius:6px;
+ padding:6px 0;margin:16px 0}
+.toc a{display:block;padding:9px 16px;color:var(--ink);text-decoration:none;
+ border-bottom:1px solid var(--line);font-size:15px}
+.toc a:last-child{border-bottom:0}
+.toc a:hover{background:#f0ebe0}
+.toc .num{display:inline-block;min-width:3.6em;color:var(--accent);font-weight:700}
+.lead{color:var(--sub);font-size:15px}
+footer{margin-top:60px;padding-top:18px;border-top:1px solid var(--line);
+ color:var(--sub);font-size:13px}
+@media(max-width:480px){body{font-size:15px}.wrap{padding:18px 14px 60px}h1{font-size:21px}}
+</style></head><body>
+<header class="top"><div class="in">
+<span class="now">話者と情報設計</span><a href="index.html">目次</a><a href="01.html">一話</a><a href="02.html">二話</a><a href="03.html">三話</a><a href="04.html">四話</a><a href="05.html">五話</a><a href="06.html">六話</a><a href="haichi.html">一章イベント配置表</a>
+</div></header>
+<div class="wrap"><h1>一章シナリオ 話者と情報設計</h1>
+<p>一章18マップの台詞を書くときの土台です。<strong>話者ごとの口調</strong>と、<strong>何をいつ出して何を隠すか</strong>を先に決めてあります。台詞の本体は01から06のファイルにあります。</p>
+<h2>1. 情報の出し入れ</h2>
+<p>TS氏の原則 T-22「情報を適切に与えて隠す」と T-23「ポエムはいいから5W1Hを明確に」に沿って、一章で扱う情報を3つに分けました。</p>
+<h3>一章で出し切るもの</h3>
+<p><strong>プレイヤーが一章を終えた時点で分かっている状態にします。</strong> ここが曖昧だと、二章以降の会話が読めなくなります。</p>
+<div class="tw"><table><thead><tr><th>#</th><th>情報</th><th>出す場所</th><th>出し方</th></tr></thead><tbody><tr><td>1</td><td>剣と魔力の時代で、舞台は大陸中央の帝国</td><td>1-1 開幕</td><td>地の文で年と場所を出す</td></tr><tr><td>2</td><td>錬成者が無銘武器を作り、使い手が魔力を通すと生涯一本の魔力武器になる</td><td>1-1 開幕／1-3 会話1</td><td>教官の説明と、クルトとヨナスの雑談</td></tr><tr><td>3</td><td>魔力の等級は生まれてすぐ決まり、身分になる</td><td>1-1 開幕／自動3</td><td>同期がアレンの家柄を持ち出す</td></tr><tr><td>4</td><td>錬成者は各国の王族で、角と長い耳が神の血のしるし</td><td>1-3 自動1</td><td>運び出されるリンデの髪の間から見える</td></tr><tr><td>5</td><td>リンデは既存の魔力武器を強化できる。他の錬成者にはできない</td><td>1-3 開幕／終了</td><td>皇帝が「明日も」と命じる理由として</td></tr><tr><td>6</td><td>錬成のたびに痛みがあり半日動けない。他の錬成者は翌日平気</td><td>1-3 開幕</td><td>侍従と女官の噂と、ヨナスの日数勘定</td></tr><tr><td>7</td><td>宮殿では我儘な皇女の癇癪だと思われている</td><td>1-3 開幕</td><td>通りすがりの噂話</td></tr><tr><td>8</td><td>アレンは家柄が最底辺なのに等級が突出している</td><td>1-1 自動3</td><td>同期の絡み</td></tr><tr><td>9</td><td>帝国が追うのは娘のためではなく、統一の条件が戻らないから</td><td>2-3 自動5</td><td>皇帝が追撃隊を編成する場面</td></tr><tr><td>10</td><td>追ってくるのは昨日までの同僚と身内</td><td>2-2／3-1／3-3</td><td>ラルフとオットー、ゲルハルト</td></tr><tr><td>14</td><td><strong>宰相が護衛の交代を通し、外れたら皇女は殺される</strong>（2026-08-30 追加）</td><td>2-1 開幕</td><td><strong>アレンが内示の中身を告げ、リンデが自分で日数を数える</strong></td></tr><tr><td>15</td><td><strong>追撃が二重になっている</strong>（2026-08-30 追加）</td><td>2-3 自動5</td><td><strong>宰相が息子を監軍として送り込む。連れ戻す側と殺す側が同じ隊にいる</strong></td></tr><tr><td>11</td><td>三すくみ・地形・MP・供魔・負傷離脱の仕組み</td><td>各チュートリアル</td><td>会話イベント10件</td></tr><tr><td>12</td><td><strong>宰相オトマールが皇女を殺そうとしている</strong>（2026-08-30 追加）</td><td>1-2 自動4</td><td><strong>賊の頭目が死に際に名を漏らす。</strong> 旧版の「雇い主は明かさない」を破棄した</td></tr><tr><td>13</td><td><strong>ロレンツォ王が西を頼れと声をかけた</strong>（2026-08-30 追加）</td><td>1-2 開幕の回想</td><td>3でアウレリアが保護する理由をここに置く</td></tr></tbody></table></div>
+<h3>一章でほのめかすもの</h3>
+<p><strong>答えを出さずに置きます。</strong> 気になる形にして、二章以降で回収します。</p>
+<div class="tw"><table><thead><tr><th>#</th><th>情報</th><th>置く場所</th><th>回収の予定</th></tr></thead><tbody><tr><td>1</td><td>アレンの父の素性が書付どおりに存在しない</td><td>1-1 自動3／6-2 会話1</td><td>未定。等級の高さと結びつく</td></tr><tr><td>3</td><td>リンデの母が19年前に去り、皇帝も正体を知らない</td><td>1-3 終了／6-3 会話1</td><td>五章の和の国</td></tr><tr><td>4</td><td>ベルントの別れた妻と娘が城下にいる</td><td>2-2 開幕／会話1</td><td>後の再会</td></tr><tr><td>5</td><td>ゲルハルトが皇帝を信じ切っていること</td><td>3-1 開幕／5-3 固有</td><td>彼が最も誠実に間違い続ける人物だと後で分かる</td></tr><tr><td>6</td><td>峠が空いていた理由</td><td>6-1 開幕・場所1</td><td><strong>6-2 の開幕で回収する</strong>（一章内で閉じる）</td></tr></tbody></table></div>
+<h3>一章では出さないもの</h3>
+<p><strong>一言も触れません。</strong> 匂わせもしません。</p>
+<div class="tw"><table><thead><tr><th>#</th><th>情報</th><th>出す時期</th></tr></thead><tbody><tr><td>1</td><td>王族＝魔族。角は神の徴ではない</td><td>四章の露見</td></tr><tr><td>2</td><td>リンデが神と魔族のハーフであること</td><td>五章の母との再会</td></tr><tr><td>3</td><td>千年前の出来事・ゲート・軍勢・軍勢の王</td><td>五章</td></tr><tr><td>4</td><td>魔力なしが魔力武器を砕けること</td><td>二章のルチアーノ失墜</td></tr><tr><td>5</td><td>ルシェインとカディーシュの思惑</td><td>二章</td></tr><tr><td>6</td><td>貫通の技法</td><td>五章</td></tr></tbody></table></div>
+<p><strong>この表の使い方</strong>：台詞を書いたら、出さないものが混ざっていないかを見ます。特に角の話は、<strong>「神の血」という世界の常識としてだけ扱い、その由来には誰も触れません。</strong></p>
+<h2>2. 話者と口調</h2>
+<h3>味方</h3>
+<div class="tw"><table><thead><tr><th>話者</th><th>一人称</th><th>口調</th><th>一章での注意</th></tr></thead><tbody><tr><td><strong>アレン</strong></td><td>俺</td><td><strong>命令形を使わない</strong>（「〜してくれ」「〜を頼む」）。<strong>温かく、よく喋る</strong>（2026-08-30 再訂正）。優しい母に育てられた男なので、ぶっきらぼうにも感情のない話し方にもしない。<strong>部下の様子に気づいて自分から声をかける。</strong> 語尾は「〜だな」「〜なんだ」で柔らかく。<strong>「……」を多用しない。</strong> 目上には敬語</td><td><strong>リンデの呼び方が「殿下」から「リンデ」に変わる。一章では 6-3 の国境を越える直前に一度だけ「リンデ」と呼び、そのあとは殿下へ戻る</strong>（完全に変わるのは二章）。<strong>1-2 が初対面で、四年間ずっと扉の外にいて顔を見たことがない</strong>（2026-08-30）</td></tr><tr><td><strong>リンデ</strong></td><td>わたし</td><td>丁寧語。痛みを聞かれると「平気です」と即答する</td><td>アレンの前でだけ「〜したい」と言える。<strong>2-1 の「出たいのです」は、交代の内示を聞いたあとに置く</strong>（2026-08-30 オーナー判断）。我儘ではなく生きるという意味になる</td></tr><tr><td><strong>クルト</strong></td><td>俺</td><td>砕けた話し方で、年上だがアレンには敬語を使わず軽口を叩く</td><td>副長。判断を先に口に出して場を動かす</td></tr><tr><td><strong>ハンナ</strong></td><td>あたし</td><td>語尾を伸ばさず短く切る。武器の話で急に饒舌</td><td>新兵。突っ込んで囲まれる</td></tr><tr><td><strong>ベルント</strong></td><td>俺</td><td>豪快で寛容。危地でも笑い、叱るときも声を荒げない</td><td>若手に好かれる。城下に別れた妻と娘がいる</td></tr><tr><td><strong>ヨナス</strong></td><td>ボク</td><td>おちゃらけた喋り方。からかわれると怒る</td><td><strong>人を「的」としか呼ばない。</strong> 3-3 でその癖が刺さる</td></tr><tr><td><strong>グレーテ</strong></td><td>わたし</td><td>丁寧で気弱。意志の強さもある</td><td>リンデの消耗に最初に気づく</td></tr><tr><td><strong>ボリス</strong></td><td>おれ</td><td>訛りがある。軍隊の言葉が分からず聞き返す</td><td>4-2 で加入。牧夫あがり</td></tr><tr><td><strong>ヤナ</strong></td><td>わたくし</td><td>早口で質問が多い。尊大</td><td>4-3 で加入。知りたがり</td></tr><tr><td><strong>スヴェン</strong></td><td>俺</td><td>皮肉が多い。上から見た情報を先に言う</td><td>5-3 で加入する自信家</td></tr></tbody></table></div>
+<h3>敵と脇役</h3>
+<p><strong>個性シートに記載がないので、ここで決めます。</strong></p>
+<div class="tw"><table><thead><tr><th>話者</th><th>一人称</th><th>口調</th></tr></thead><tbody><tr><td><strong>ジークハルト</strong>（皇帝）</td><td>私</td><td>命令を疑わず、声も荒げない。娘に語りかけるときも用件だけ</td></tr><tr><td><strong>ゲルハルト</strong>（追撃隊）</td><td>私</td><td>実直で、命令と自分の判断を疑わない。アレンには元上官として呼びかける</td></tr><tr><td>~~<strong>コンラート</strong>（監軍）~~</td><td>僕</td><td><strong>一章には出しません</strong>（2026-08-29 オーナー決定で序盤の敵から外した）。口調の定義は後の章のために残す</td></tr><tr><td><strong>オトマール</strong>（宰相）</td><td>私</td><td><strong>恭順の言葉を並べる。</strong>「いかようにも」「もとより陛下のもの」。皇帝の前でだけ低くなる（2026-08-30 追加）</td></tr><tr><td><strong>門衛長</strong>（2-3）</td><td>私</td><td>命令と保身のあいだで言い訳を挟む（2026-08-30 追加）</td></tr><tr><td><strong>ディートリヒ</strong>（北方軍）</td><td>私</td><td>動かずに短く言い切る。追う気はなく、通さないとだけ言う</td></tr><tr><td><strong>ラルフ</strong>（元小隊員）</td><td>俺</td><td>言い淀む。アレンを責めない</td></tr><tr><td><strong>オットー</strong>（元小隊員）</td><td>俺</td><td>断定する。裏切り者と呼ぶ</td></tr><tr><td><strong>ジギスムント</strong>（宰相の息子・監軍）</td><td>私</td><td><strong>慇懃なようで人を物として数える</strong>（「三つ」「五つ」）。父の言葉を借りる（2026-08-30 追加）</td></tr><tr><td><strong>ロレンツォ</strong>（アウレリア王）</td><td>私</td><td>落ち着いて、相手の様子を先に言う（2026-08-30 追加）</td></tr><tr><td><strong>賊の頭</strong>（1-2）</td><td>俺</td><td>荒い。死に際に雇い主の名を漏らす（2026-08-30 追加）</td></tr><tr><td><strong>教官</strong>（1-1）</td><td>私</td><td>手順を読み上げる話し方</td></tr><tr><td><strong>侍従・女官</strong>（1-3）</td><td>—</td><td>噂話。声をひそめない</td></tr></tbody></table></div>
+<h2>3. 書き方の規則</h2>
+<div class="tw"><table><thead><tr><th>項目</th><th>規則</th></tr></thead><tbody><tr><td>1台詞の長さ</td><td><strong>40字以内を目安</strong>。8割をそこに収める</td></tr><tr><td>話者の切り替え</td><td>長い説明は分割して、別の話者に受けさせる</td></tr><tr><td>地の文</td><td><strong>場所と時間の提示だけ</strong>にして、平均15字前後に収める</td></tr><tr><td>説明台詞</td><td>世界の仕組みは、知らない人物への説明の形にする</td></tr><tr><td>台詞の表記</td><td>話者名のあとに全角スペース1つ下げて書く</td></tr><tr><td><strong>主語</strong></td><td><strong>省かない</strong>（2026-08-30 オーナー指摘）。とくに<strong>話者でも聞き手でもない第三者</strong>（宰相・皇帝・帝国）の行為を語るときは必ず書く。「わたしを殺すつもりですね」は、素直に読むと<strong>目の前の相手が殺すこと</strong>になる。「宰相は、わたしを殺すつもりですね」と書く</td></tr><tr><td><strong>言い回し</strong></td><td><strong>かっこつけない</strong>（2026-08-30 オーナー指摘）。<strong>ぼかさず具体的に言う</strong>（「五日のことか」ではなく「俺らの配置換えのことか？」）、<strong>思わせぶりに黙らない</strong>（「何も聞いていない」ではなく「気にしないでくれ」）、<strong>感情を素直に出す</strong>（「六刻で起きました」ではなく「あなたと話したいことがあって、頑張って起きてきました」）。<strong>参考にするのは Heartium と久遠の彼方の口語。</strong> 意味ありげな一言で締めず、やり取りで終える</td></tr></tbody></table></div>
+<h2>4. 関連ファイル</h2>
+<div class="tw"><table><thead><tr><th>ファイル</th><th>中身</th></tr></thead><tbody><tr><td><code>2026-08-28-SRPG-一章イベント配置表.md</code></td><td>どの枠に何の場面を置くかの表で、<strong>この台詞はその枠を埋めたもの</strong></td></tr><tr><td><code>2026-08-25-SRPG-キャラ個性の記入シート.md</code></td><td>口調の出どころ</td></tr><tr><td><code>README.md</code></td><td>人物設定と物語の骨格</td></tr><tr><td><code>TS氏の設計原則.md</code></td><td>T-22（情報を与えて隠す）と T-23（5W1H）</td></tr></tbody></table></div>
+<footer>SRPG 一章シナリオ台本／正本は <code>.company/game/</code>／2026-08-28 時点</footer>
+</div></body></html>
