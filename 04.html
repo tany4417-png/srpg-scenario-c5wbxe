@@ -59,279 +59,415 @@ footer{margin-top:60px;padding-top:18px;border-top:1px solid var(--line);
 <p><strong>第2版です。</strong> 質問役をハンナからボリスとヤナへ移しました。記入シートで「軍隊の言葉が分からず聞き返す」のがボリス、「早口で質問が多い」のがヤナです。</p>
 <hr>
 <h2 id="4-1">4-1 東の草原<a class="anchor" href="#4-1">#</a></h2>
-<div class="tw"><table><thead><tr><th>項目</th><th>中身</th></tr></thead><tbody><tr><td>勝利条件</td><td>3ターン生存</td></tr><tr><td>敗北条件</td><td>リンデの戦闘不能／味方3人以上の戦闘不能</td></tr><tr><td>敵</td><td>24体（ザヴィエラの魔法騎兵）</td></tr></tbody></table></div>
+<div class="tw"><table><thead><tr><th>項目</th><th>中身</th></tr></thead><tbody><tr><td>勝利条件</td><td>リンデが窪地へ到達</td></tr><tr><td>敗北条件</td><td>リンデの戦闘不能／味方3人以上の戦闘不能</td></tr><tr><td>敵</td><td>24体（ザヴィエラの魔法騎兵）</td></tr></tbody></table></div>
+<p><strong>第2版です。</strong> 勝利条件を「3ターン生存」から「リンデが窪地へ到達」へ変えました（2026-08-31 オーナー承認）。<strong>終了イベントが窪地へ逃げ込む形なので、逃げ込む先を勝利条件にしています。</strong></p>
+<p><strong>魔法騎兵の隊長にボグダンという名前を付けました。</strong> 4-2 の敵将と同じ人物です。<strong>国境の警備を騙っていることが、次のマップで割れます。</strong></p>
 <h3>開幕イベント</h3>
 <div class="serif"><div class="ji"><b>（地の文）</b><p>ザヴィエラ国境　草原――</p></div>
-<div class="se"><b>ハンナ</b><p>ほんとに何もないですね。</p></div>
-<div class="se"><b>ヨナス</b><p>弓兵にとっては地獄です。</p><p>隠れる所がないので、撃つ前に見つかります。</p></div>
-<div class="se"><b>ベルント</b><p>馬にとっては天国だがな。</p></div>
+<div class="se"><b>ハンナ</b><p>ほんとに何もないですね。</p><p>草と空しかないです。</p></div>
+<div class="se"><b>ヨナス</b><p>弓を持ってる人間には地獄ですよ、こういう所。</p><p>隠れる場所がないので、狙う前にこっちが見つかります。</p></div>
+<div class="se"><b>ベルント</b><p>馬には天国だがな。</p><p>どこまででも走れる。</p></div>
+<div class="se"><b>クルト</b><p>縁起でもないこと言うなよ。</p></div>
+<div class="se"><b>グレーテ</b><p>殿下、日差しが強いです。</p><p>これを頭にかけてください。</p></div>
+<div class="se"><b>リンデ</b><p>ありがとうございます。</p></div>
+<div class="se"><b>……外は、こんなに広いんですね。</b></div>
+<div class="se"><b>グレーテ</b><p>はい。</p></div>
+<div class="se"><b>リンデ</b><p>部屋の窓から見えたのは、庭と塀だけでした。</p></div>
 <div class="ji"><b>（地の文）</b><p>地平の向こうから、蹄の音――</p></div>
-<div class="se"><b>ヨナス</b><p>来ました。二十四……全部、馬です。</p></div>
-<div class="se"><b>クルト</b><p>嘘だろ！？</p></div>
-<div class="se"><b>魔法騎兵の隊長</b><p>止まれ。</p><p>ここはザヴィエラの領だ。</p></div>
-<div class="se"><b>アレン</b><p>国境は越えていません。</p></div>
-<div class="se"><b>魔法騎兵の隊長</b><p>越えている。国境はあの丘の手前だ。</p></div>
-<div class="se"><b>クルト</b><p>丘なんてあったか？</p></div>
-<div class="se"><b>ヨナス</b><p>ありません。</p></div>
-<div class="se"><b>魔法騎兵の隊長</b><p>帝国の兵だな。</p></div>
-<div class="se"><b>アレン</b><p>……元、です。国を出ました。</p></div>
-<div class="se"><b>魔法騎兵の隊長</b><p>三日前に城を出た一隊か。</p></div>
-<div class="ji"><b>（地の文）</b><p>全員が黙った――</p></div>
+<div class="se"><b>ヨナス</b><p>来ました。かなりの数です。</p><p>全部、馬に乗ってます。</p></div>
+<div class="se"><b>クルト</b><p>嘘だろ！？</p><p>こんな見晴らしのいい所で会うのかよ！</p></div>
+<div class="se"><b>アレン</b><p>殿下を真ん中へ。</p><p>ベルント、前を頼みます。</p></div>
+<div class="se"><b>ベルント</b><p>承知！</p></div>
+<div class="ji"><b>（地の文）</b><p>騎兵が、間合いの外で止まった――</p></div>
+<div class="se"><b>ボグダン</b><p>止まれ。ここはザヴィエラの領だ。</p></div>
+<div class="se"><b>アレン</b><p>……国境は越えていないはずです。</p><p>朝から西へは歩いていません。</p></div>
+<div class="se"><b>ボグダン</b><p>越えている。国境はあの丘の手前だ。</p></div>
+<div class="se"><b>クルト</b><p>丘？　どこにあるんだよ。</p></div>
+<div class="se"><b>ヨナス</b><p>……ないですね。</p><p>この草原、端から端まで平らですよ。</p></div>
+<div class="se"><b>ボグダン</b><p>帝国の兵だな。旗はないが、鎧の合わせで分かる。</p></div>
+<div class="se"><b>アレン</b><p>元、です。三日前に国を出ました。</p></div>
+<div class="se"><b>ボグダン</b><p>知っている。</p><p>三日前に城を出た一隊だろう。</p></div>
+<div class="ji"><b>（地の文）</b><p>小隊の全員が、アレンを見た――</p></div>
 <div class="se"><b>クルト</b><p>もう伝わってんのかよ！</p></div>
-<div class="se"><b>魔法騎兵の隊長</b><p>鳥は馬より速い。</p></div>
+<div class="se"><b>ボグダン</b><p>鳥は馬より速い。</p><p>うちの国は、そういうものによく金をかける。</p><p>東の端から西の端まで、二日で話が回る。</p></div>
 <div class="se"><b>後ろの女が、皇女ジークリンデだな。</b></div>
-<div class="se"><b>リンデ</b><p>……。</p></div>
-<div class="se"><b>魔法騎兵の隊長</b><p>こちらへ来られよ。</p><p>我が国は、帝国のように酷使しない。</p></div>
+<div class="se"><b>リンデ</b><p>……はい。</p></div>
+<div class="se"><b>ボグダン</b><p>こちらへ来られよ。</p><p>我が国は、帝国のように酷使せぬ。</p></div>
 <div class="se"><b>月に一本でよい。それ以上は求めん。</b></div>
 <div class="se"><b>リンデ</b><p>月に、一本。</p></div>
-<div class="se"><b>魔法騎兵の隊長</b><p>そうだ。</p></div>
+<div class="se"><b>ボグダン</b><p>そうだ。悪い話ではないだろう。</p></div>
 <div class="se"><b>リンデ</b><p>そのぶん、長く生かすのですね。</p></div>
-<div class="se"><b>魔法騎兵の隊長</b><p>……。</p></div>
+<div class="se"><b>ボグダン</b><p>……よく分かっておられる。</p></div>
 <div class="se"><b>リンデ</b><p>行きません。</p></div>
-<div class="se"><b>魔法騎兵の隊長</b><p>残念だ。では、力ずくで連れていく。</p></div>
+<div class="se"><b>ボグダン</b><p>なぜだ。帝国では十日に一本と聞いたぞ。</p></div>
+<div class="se"><b>リンデ</b><p>十日に一本です。よくご存じですね。</p></div>
+<div class="se"><b>ボグダン</b><p>こちらは月に一本だ。三倍は楽になる。</p></div>
+<div class="se"><b>リンデ</b><p>三倍長く、同じことをするのですね。</p></div>
+<div class="se"><b>リンデ</b><p>どちらも、部屋から出られません。</p></div>
+<div class="se"><b>ボグダン</b><p>部屋には花を置く。書物も好きなだけ入れよう。</p></div>
+<div class="se"><b>リンデ</b><p>いま、草の上に立っています。</p><p>こちらのほうがいいです。</p></div>
+<div class="se"><b>ボグダン</b><p>……その男は、あなたの何だ。</p></div>
+<div class="se"><b>リンデ</b><p>護衛です。</p></div>
+<div class="se"><b>ボグダン</b><p>アレン・フォン・グラーヴェンだな。</p><p>鳥が運んできた話に、名前まで載っていた。</p></div>
+<div class="se"><b>アレン</b><p>……そこまで書いてありましたか。</p><p>三日で、ずいぶん遠くまで届くものですね。</p></div>
+<div class="se"><b>ボグダン</b><p>逆賊、と添えてあったぞ。</p><p>名の売れた男を連れて、隠れて歩けると思うな。</p></div>
+<div class="se"><b>アレン</b><p>隠れるつもりはありません。</p></div>
+<div class="se"><b>ボグダン</b><p>……そうか。</p></div>
+<div class="se"><b>残念だ。では、力ずくで連れていく。</b></div>
+<div class="se"><b>クルト</b><p>隊長。どうします。</p></div>
+<div class="se"><b>アレン</b><p>断ります。</p></div>
+<div class="se"><b>クルト</b><p>それはさっき聞いた。</p><p>俺は、殴っていいのか訊いてるんですよ。</p></div>
+<div class="se"><b>アレン</b><p>……ええ。よろしく頼みます。</p></div>
+<div class="se"><b>クルト</b><p>最初からそう言えばいいんだ。</p></div>
 <div class="se"><b>クルト</b><p>構えろ！</p></div>
-<div class="se"><b>アレン</b><p>殿下を中央へ。ベルント、前に立て。</p></div>
-<div class="se"><b>ベルント</b><p>承知！</p></div>
-<div class="ji"><b>（地の文）</b><p>騎兵は、間合いの外で止まった――</p></div>
-<div class="se"><b>ハンナ</b><p>……来ませんね？</p></div>
-<div class="se"><b>クルト</b><p>なんで止まる。</p></div>
+<div class="se"><b>アレン</b><p>散らばってください。固まらないで。</p></div>
+<div class="se"><b>ハンナ</b><p>なんでですか？</p><p>固まったほうが守れますよ！</p></div>
+<div class="se"><b>アレン</b><p>まとめて撃たれます。</p></div>
 <div class="ji"><b>（地の文）</b><p>騎兵たちの掌に、光が集まる――</p></div>
-<div class="se"><b>ヨナス</b><p>あれ、なんですか！</p></div>
-<div class="se"><b>グレーテ</b><p>魔法です。</p><p>……こんなにたくさん、初めて見ました。</p></div>
-<div class="se"><b>ハンナ</b><p>斧、当たらないんですけど！</p></div>
-<div class="se"><b>クルト</b><p>届かないな。</p></div>
-<div class="se"><b>ハンナ</b><p>どうするんですか！</p></div>
-<div class="se"><b>クルト</b><p>……分からん。</p></div>
-<div class="se"><b>アレン</b><p>伏せろ！</p></div>
+<div class="se"><b>ヨナス</b><p>うわ、なんですかあれ！</p></div>
+<div class="se"><b>グレーテ</b><p>魔法です。</p><p>……こんなにたくさん一度に見たのは初めてです。</p><p>城でも、撃つ人は一度に二人か三人でした。</p></div>
+<div class="se"><b>ハンナ</b><p>あたしの斧、届く距離じゃないんですけど！</p></div>
+<div class="se"><b>ヨナス</b><p>ボクの矢も、当たる前に落ちてます。</p><p>風じゃないです。何かに弾かれてる。</p></div>
+<div class="se"><b>グレーテ</b><p>魔力の膜です。弱い矢なら、あれで止まります。</p></div>
+<div class="se"><b>ヨナス</b><p>じゃあ、強く撃てばいいんですか？</p></div>
+<div class="se"><b>グレーテ</b><p>……そういうことになります。</p></div>
+<div class="se"><b>ヨナス</b><p>できませんよ、そんなの！</p></div>
+<div class="se"><b>クルト</b><p>こっちが走るしかないな。</p><p>撃たれながらでもだ。ほかに手がない。</p></div>
+<div class="se"><b>ボグダン</b><p>撃て。</p></div>
 <div class="ji"><b>（地の文）</b><p>光が飛んだ――</p></div>
 <div class="se"><b>ベルント</b><p>ぐ……っ。</p></div>
 <div class="se"><b>ハンナ</b><p>ベルント！</p></div>
-<div class="se"><b>ベルント</b><p>効いたな。</p><p>盾ごと来る。鉄を挟んでも痛い。</p></div>
-<div class="se"><b>アレン</b><p>三すくみの外だ。</p><p>剣も槍も斧も関係ない。当たれば同じだけ削られる。</p></div>
-<div class="se"><b>クルト</b><p>最悪だ！</p></div>
-<div class="se"><b>魔法騎兵の隊長</b><p>撃て。</p></div>
-<div class="se"><b>アレン</b><p>全員、散開！　固まるな！</p></div></div>
+<div class="se"><b>ベルント</b><p>効いたな。盾ごと来る。</p><p>鉄を挟んでも、中まで痛い。</p></div>
+<div class="se"><b>アレン</b><p>三すくみの外です。</p><p>剣も槍も斧も関係ない。当たれば同じだけ削られます。</p><p>盾の後ろにいても、抜けてきます。</p></div>
+<div class="se"><b>クルト</b><p>最悪だ！</p><p>斧で殴れば通る、って話じゃないのかよ！</p></div>
+<div class="se"><b>アレン</b><p>通りません。相手の魔力とこっちの魔力で決まります。</p></div>
+<div class="se"><b>ハンナ</b><p>あたし、魔力低いんですけど！</p></div>
+<div class="se"><b>アレン</b><p>だから走ってください。</p><p>撃たれる時間が短いほど、こっちが得します。</p></div></div>
 <h3>自動イベント1（1ターン開始）</h3>
-<div class="serif"><div class="se"><b>ヨナス</b><p>隊長、当たりません！　距離が足りないです。</p></div>
-<div class="se"><b>クルト</b><p>こっちが詰めるしかない。</p></div>
+<div class="serif"><div class="se"><b>ヨナス</b><p>隊長、こっちの矢が全然足りません！</p><p>あいつら、届く手前で止まってます。</p></div>
+<div class="se"><b>クルト</b><p>詰めるしかないな。</p><p>あの距離で立ってても、削られるだけだ。</p></div>
 <div class="se"><b>ハンナ</b><p>詰めたら撃たれますよ！</p></div>
-<div class="se"><b>ベルント</b><p>撃たれながら詰めるんだ。</p></div>
-<div class="se"><b>ハンナ</b><p>無理でしょう！</p></div>
+<div class="se"><b>ベルント</b><p>撃たれながら詰めるんだ。</p><p>そのために俺が前にいる。</p></div>
+<div class="se"><b>ハンナ</b><p>無理でしょう、それ！</p></div>
 <div class="se"><b>クルト</b><p>だな！</p></div>
-<div class="se"><b>グレーテ</b><p>……相性の表示が、出ません。</p></div>
+<div class="se"><b>グレーテ</b><p>……あの、有利か不利かの表示が出ません。</p></div>
 <div class="se"><b>クルト</b><p>出ない？</p></div>
-<div class="se"><b>グレーテ</b><p>いつもは有利か不利か出るんです。</p><p>いまは、何も。</p></div>
-<div class="se"><b>アレン</b><p>計算の外にいるということです。</p></div>
-<div class="se"><b>ハンナ</b><p>じゃあ、どうやって勝つんですか。</p></div>
-<div class="se"><b>アレン</b><p>勝たない。三つ、耐える。</p></div></div>
+<div class="se"><b>グレーテ</b><p>いつもは、武器を構えると分かるんです。</p><p>この相手だと、何も出てきません。</p></div>
+<div class="se"><b>アレン</b><p>三すくみの計算に入っていないんです。</p></div>
+<div class="se"><b>グレーテ</b><p>わたしが後ろにつきます。</p><p>焦げた方から順に、手を当てていきます。</p></div>
+<div class="se"><b>ハンナ</b><p>じゃあ、どうやって勝つんですか！</p></div>
+<div class="se"><b>アレン</b><p>勝たなくていいです。</p><p>ヨナス、東に何か見えませんか？</p></div>
+<div class="se"><b>ヨナス</b><p>……地面が落ちてる所があります。</p><p>窪地です。あそこなら上から撃たれません。</p></div>
+<div class="se"><b>アレン</b><p>殿下をそこまで運びます。</p><p>全員、東へ。</p></div></div>
 <h3>自動イベント2（2ターン開始）</h3>
-<div class="serif"><div class="se"><b>魔法騎兵の隊長</b><p>包め。</p></div>
+<div class="serif"><div class="se"><b>ボグダン</b><p>囲め。逃がすな。</p></div>
 <div class="ji"><b>（地の文）</b><p>騎兵が円を狭めていく――</p></div>
-<div class="se"><b>ヨナス</b><p>囲まれます！</p></div>
-<div class="se"><b>クルト</b><p>速すぎる。</p><p>こっちが一歩動く間に三歩だ！</p></div>
-<div class="se"><b>魔法騎兵の隊長</b><p>中央の女を狙え。</p><p>護衛から削る必要はない。</p></div>
+<div class="se"><b>ヨナス</b><p>囲まれます！</p><p>東からも回り込んできてます！</p></div>
+<div class="se"><b>クルト</b><p>速すぎるだろ。</p><p>こっちが一歩の間に、あっちは三歩だぞ！</p></div>
+<div class="se"><b>ボグダン</b><p>真ん中の女だけを狙え。</p><p>護衛は放っておいてよい。</p></div>
 <div class="se"><b>アレン</b><p>殿下！</p></div>
 <div class="ji"><b>（地の文）</b><p>アレンがリンデの前に出た――</p></div>
 <div class="se"><b>リンデ</b><p>グラーヴェン！</p></div>
 <div class="se"><b>アレン</b><p>……っ。</p></div>
-<div class="se"><b>グレーテ</b><p>殿下、動かないでください！</p></div>
-<div class="se"><b>ベルント</b><p>狙われてるのは殿下だけだ。</p><p>俺たちは、ついでに撃たれてる！</p></div></div>
-<h3>自動イベント3（3ターン終了）</h3>
-<div class="serif"><div class="ji"><b>（地の文）</b><p>三度目の斉射が止んだ――</p></div>
+<div class="se"><b>グレーテ</b><p>殿下、動かないでください！</p><p>いま前に出たら、あなたに当たります。</p></div>
+<div class="se"><b>ベルント</b><p>狙われてるのは殿下だけだ。</p><p>俺たちは、ついでに撃たれてる！</p></div>
+<div class="se"><b>ハンナ</b><p>殿下、下がってください！　もっと後ろへ！</p></div>
+<div class="se"><b>リンデ</b><p>どこまで下がればいいのですか？</p></div>
+<div class="se"><b>ハンナ</b><p>……下がる所、ないですね。</p><p>どっちを向いても草しかないです。</p></div>
+<div class="se"><b>クルト</b><p>草原ってのは、そういう場所だ。</p></div>
+<div class="se"><b>ハンナ</b><p>ついでって何ですか！</p></div>
+<div class="se"><b>クルト</b><p>喋ってる暇があったら走れ！</p></div></div>
+<h3>自動イベント3（リンデが窪地へ到達）</h3>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>窪地の底へ降りた――</p></div>
+<div class="ji"><b>（地の文）</b><p>斉射が、頭の上を越えていく――</p></div>
+<div class="se"><b>ハンナ</b><p>当たらない……当たらないです！</p></div>
+<div class="se"><b>ヨナス</b><p>高い所からは撃てないんですよ。</p><p>角度がつかないので、縁で止まります。</p><p>降りてくるしかないですけど、降りたら殴られます。</p></div>
+<div class="se"><b>ボグダン</b><p>……もうよい。引くぞ。</p></div>
 <div class="se"><b>魔法騎兵</b><p>隊長、まだ動けます！</p></div>
-<div class="se"><b>魔法騎兵の隊長</b><p>引くぞ。</p><p>馬ではない。撃つほうが持たん。</p></div>
-<div class="se"><b>我々は三度撃てば空になる。</b></div>
+<div class="se"><b>ボグダン</b><p>馬の話ではない。撃つほうが保たん。</p></div>
+<div class="se"><b>我々は三度撃てば空になる。</b><p>四度目は明日だ。</p><p>空の手で降りていく馬鹿がどこにいる。</p></div>
 <div class="ji"><b>（地の文）</b><p>騎兵が下がっていく――</p></div>
-<div class="se"><b>ハンナ</b><p>行った……勝ったんですか？</p></div>
-<div class="se"><b>ベルント</b><p>向こうの弾が切れただけだ。</p></div>
-<div class="se"><b>ヨナス</b><p>三回。</p><p>三回撃つと空になるんですね。</p></div>
-<div class="se"><b>アレン</b><p>覚えておけ。</p></div>
+<div class="se"><b>ハンナ</b><p>行った……勝ったんですか、これ。</p></div>
+<div class="se"><b>ベルント</b><p>向こうの手が止まっただけだ。</p></div>
+<div class="se"><b>ヨナス</b><p>でも、追ってこないですね。</p></div>
+<div class="se"><b>クルト</b><p>撃てないからだ。</p><p>降りてきて殴り合いになったら、こっちが勝つと分かってる。</p></div>
+<div class="se"><b>ベルント</b><p>賢いな。腹は立つが。</p></div>
+<div class="se"><b>リンデ</b><p>……あの方たち、また来るでしょうか。</p></div>
+<div class="se"><b>ヨナス</b><p>三回。</p><p>三回撃つと、空になるんですね。</p></div>
+<div class="se"><b>アレン</b><p>覚えておいてください。</p><p>次に会ったら、三回さえ凌げばいい。</p></div>
 <div class="se"><b>グレーテ</b><p>みなさん、傷を見せてください。</p></div>
-<div class="se"><b>ベルント</b><p>俺は平気だ。</p></div>
+<div class="se"><b>ベルント</b><p>俺は平気だ。</p><p>このくらい、演習でもやってる。</p></div>
 <div class="se"><b>グレーテ</b><p>平気ではありません。肩が焦げています！</p></div>
 <div class="se"><b>ベルント</b><p>焦げただけだ。はっはっは！</p></div>
-<div class="se"><b>ハンナ</b><p>笑いごとじゃないですよ。</p></div>
+<div class="se"><b>グレーテ</b><p>笑わないでください。座ってください。</p></div>
+<div class="se"><b>ハンナ</b><p>笑いごとじゃないですよ、ほんとに。</p></div>
 <div class="se"><b>……ねえ、あいつら、殿下だけ狙ってましたよね。</b></div>
 <div class="se"><b>クルト</b><p>そうだな。</p></div>
 <div class="se"><b>ハンナ</b><p>あたしたち、邪魔ですらないんですか。</p></div>
-<div class="se"><b>クルト</b><p>邪魔だよ。</p><p>邪魔だから、まとめて撃たれた。</p></div>
+<div class="se"><b>クルト</b><p>邪魔だよ。</p><p>邪魔だから、まとめて撃たれた。</p><p>役に立ってなきゃ、無視されてる。</p></div>
+<div class="se"><b>ハンナ</b><p>……それ、慰めになってます？</p></div>
+<div class="se"><b>クルト</b><p>なってない。俺も腹が立ってる。</p></div>
 <div class="se"><b>リンデ</b><p>……ごめんなさい。</p></div>
-<div class="se"><b>アレン</b><p>殿下が謝ることではありません。</p></div>
-<div class="se"><b>窪地へ移ります。ここは次も同じことになる。</b></div></div>
+<div class="se"><b>アレン</b><p>殿下が謝ることではありません。</p><p>あの人たちが勝手に来ただけです。</p></div>
+<div class="se"><b>リンデ</b><p>でも、わたしがいなければ来ませんでした。</p></div>
+<div class="se"><b>アレン</b><p>来ますよ。</p><p>これだけの人数で草原を歩いてれば、誰かは寄ってきます。</p><p>旗を持ってなければ、なおさらです。</p></div>
+<div class="se"><b>リンデ</b><p>……そうでしょうか。</p></div>
+<div class="se"><b>アレン</b><p>そういうことにしてください。</p></div></div>
 <h3>会話イベント（チュートリアル「魔法と相性」）</h3>
 <div class="serif"><div class="se"><b>グレーテ</b><p>魔法には、三すくみが乗りません。</p></div>
-<div class="se"><b>ハンナ</b><p>じゃあ何で決まるんですか？</p></div>
-<div class="se"><b>グレーテ</b><p>相手の魔力と、こちらの魔力です。</p></div>
+<div class="se"><b>ハンナ</b><p>じゃあ、何で決まるんですか？</p></div>
+<div class="se"><b>グレーテ</b><p>撃つほうの魔力と、受けるほうの魔力です。</p></div>
 <div class="se"><b>ハンナ</b><p>あたし、魔力低いんですけど。</p></div>
 <div class="se"><b>グレーテ</b><p>……近づいて、早く倒すしかありません。</p></div>
-<div class="se"><b>遠くにいる時間が、そのまま損になります。</b></div></div>
+<div class="se"><b>遠くにいる時間が、そのまま損になります。</b></div>
+<div class="se"><b>ハンナ</b><p>じゃあ、あたしがやることは？</p></div>
+<div class="se"><b>グレーテ</b><p>走ることです。ひたすら走ってください。</p></div></div>
 <h3>会話イベント（支援・ヨナスとベルント）</h3>
-<div class="serif"><div class="se"><b>ヨナス</b><p>届かない敵って、どうすればいいんですか。</p></div>
-<div class="se"><b>ベルント</b><p>届く所まで歩く。</p></div>
-<div class="se"><b>ヨナス</b><p>撃たれますよ！</p></div>
+<div class="serif"><div class="se"><b>ヨナス</b><p>こっちの手が出せない相手って、どうすればいいんですか？</p></div>
+<div class="se"><b>ベルント</b><p>手が出る所まで歩く。</p></div>
+<div class="se"><b>ヨナス</b><p>その間ずっと撃たれますよ！</p></div>
 <div class="se"><b>ベルント</b><p>撃たれる役がいるだろう。</p></div>
 <div class="se"><b>俺がその役だ。</b></div></div>
 <h3>終了イベント</h3>
-<div class="serif"><div class="ji"><b>（地の文）</b><p>草原の窪地へ向かう――</p></div>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>窪地の底を、東へ歩く――</p></div>
 <div class="se"><b>リンデ</b><p>グラーヴェン。さっき、前に出ましたね。</p></div>
 <div class="se"><b>アレン</b><p>はい。</p></div>
 <div class="se"><b>リンデ</b><p>やめてください。</p></div>
 <div class="se"><b>アレン</b><p>できません。</p></div>
-<div class="se"><b>リンデ</b><p>……そうですか。</p></div></div>
+<div class="se"><b>リンデ</b><p>……そうですか。</p></div>
+<div class="se"><b>ヨナス</b><p>隊長。この底、東へ抜けられます。</p><p>上に出ないで進めますよ。</p></div>
+<div class="se"><b>アレン</b><p>助かります。そのまま案内してください。</p></div>
+<div class="se"><b>グレーテ</b><p>殿下。歩けますか。</p><p>顔の色が、朝より悪いです。</p></div>
+<div class="se"><b>リンデ</b><p>歩けます。まだ足は動きます。</p></div>
+<div class="se"><b>グレーテさん。窪地の底って、風が来ないんですね。</b></div>
+<div class="se"><b>グレーテ</b><p>はい。今日は、そのほうが助かります。</p></div></div>
 <hr>
 <h2 id="4-2">4-2 草原の窪地<a class="anchor" href="#4-2">#</a></h2>
-<div class="tw"><table><thead><tr><th>項目</th><th>中身</th></tr></thead><tbody><tr><td>勝利条件</td><td>敵将の撃破</td></tr><tr><td>敗北条件</td><td>リンデの戦闘不能／味方3人以上の戦闘不能</td></tr><tr><td>敵</td><td>26体（魔法騎兵と歩兵）</td></tr></tbody></table></div>
+<div class="tw"><table><thead><tr><th>項目</th><th>中身</th></tr></thead><tbody><tr><td>勝利条件</td><td>敵将のHPを半分にして退かせる</td></tr><tr><td>敗北条件</td><td>リンデの戦闘不能／味方3人以上の戦闘不能</td></tr><tr><td>敵</td><td>26体（魔法騎兵と歩兵）</td></tr></tbody></table></div>
+<p><strong>第2版です。</strong> 勝利条件を「敵将の撃破」から「HPを半分にして退かせる」へ変えました（2026-08-31 オーナー承認）。<strong>手柄目当ての男なので、損だと分かれば引きます。</strong></p>
+<p><strong>ボグダンは 4-1 と同じ人物です。</strong> 魔法が空になったので、歩兵を連れて戻ってきました。<strong>撃てない相手なので、ここでは近づけば勝てます。</strong></p>
 <h3>開幕イベント</h3>
 <div class="serif"><div class="ji"><b>（地の文）</b><p>草原　窪地――</p></div>
-<div class="se"><b>クルト</b><p>外周を取られてる。</p><p>上から見下ろされてるぞ。</p></div>
+<div class="se"><b>クルト</b><p>外周を取られてる。</p><p>ぐるっと上から見下ろされてるぞ。</p></div>
 <div class="se"><b>ハンナ</b><p>最悪じゃないですか！</p></div>
-<div class="se"><b>ベルント</b><p>いや、悪くない。</p><p>上にいる奴は、降りてこないと届かん。</p><p>降りてきたら、こっちの間合いだ。</p></div>
+<div class="se"><b>ベルント</b><p>いや、そう悪くない。</p><p>上にいる奴は、降りてこないと手が出せん。</p><p>降りてきたら、こっちの間合いだ。</p></div>
 <div class="se"><b>ハンナ</b><p>……あ、そっか。</p></div>
-<div class="se"><b>ザヴィエラの隊長</b><p>降りるな。上から削れ。</p></div>
-<div class="se"><b>クルト</b><p>分かってやがる。</p></div>
-<div class="se"><b>アレン</b><p>突破口を探せ。</p></div>
-<div class="se"><b>ヨナス</b><p>一か所だけ、傾斜が緩い所があります。東側です。</p></div>
-<div class="se"><b>アレン</b><p>そこへ寄せる。</p></div>
+<div class="se"><b>ヨナス</b><p>でも人数が増えてます。</p><p>さっきの騎兵に、歩いてるのが混ざってますよ。</p></div>
+<div class="se"><b>アレン</b><p>歩兵を連れてきたんです。</p></div>
+<div class="se"><b>クルト</b><p>なんでだ。馬のほうが速いだろ。</p></div>
+<div class="se"><b>アレン</b><p>あの人たち、もう撃てないんです。</p><p>三度で空になると自分で言ってました。</p></div>
+<div class="se"><b>ベルント</b><p>……なるほど。</p><p>撃てないから、押し潰しに来たわけだ。</p></div>
+<div class="se"><b>クルト</b><p>じゃあ好都合じゃねえか。</p><p>殴り合いなら、こっちの土俵だ。</p></div>
+<div class="se"><b>ボグダン</b><p>降りるな。上から囲め。</p></div>
+<div class="se"><b>クルト</b><p>あの声、さっきの奴だな。</p></div>
+<div class="se"><b>ハンナ</b><p>兜に羽根、ついてますね。さっきの人ですよ。</p></div>
+<div class="se"><b>クルト</b><p>同じ奴だ。しつこいな。</p></div>
+<div class="se"><b>ボグダン</b><p>そこの隊長。もう一度だけ言う。</p><p>女を置いていけ。それなら通してやる。</p></div>
+<div class="se"><b>アレン</b><p>断ります。</p></div>
+<div class="se"><b>ボグダン</b><p>なぜだ。</p><p>お前たちは国を捨てた身だろう。</p><p>女ひとりで、行き先も食い物も手に入るぞ。</p></div>
+<div class="se"><b>アレン</b><p>その話、さっきも聞きました。</p></div>
+<div class="se"><b>ボグダン</b><p>二度目は条件がいい。</p></div>
+<div class="se"><b>アレン</b><p>……卿。ひとつ伺っていいですか。</p></div>
+<div class="se"><b>ボグダン</b><p>なんだ。</p></div>
+<div class="se"><b>アレン</b><p>国境の丘は、どこにありましたか。</p></div>
+<div class="se"><b>ボグダン</b><p>……。</p></div>
+<div class="se"><b>ヨナス</b><p>ないですよね、丘。</p><p>ここまで歩いてきましたけど、ずっと平らでした。</p></div>
+<div class="se"><b>ボグダン</b><p>黙れ。</p></div>
+<div class="se"><b>クルト</b><p>あー、そういうことか。</p><p>こいつ、国の仕事で来てるわけじゃねえな。</p></div>
+<div class="se"><b>ベルント</b><p>国境の警備が、国境のない所で待ってたわけだ。</p></div>
+<div class="se"><b>ボグダン</b><p>押し包め。話は終わりだ。</p></div>
+<div class="se"><b>アレン</b><p>あの人を先に叩きます。</p></div>
+<div class="se"><b>クルト</b><p>向こうも同じこと考えてますよ、たぶん。</p></div>
+<div class="se"><b>アレン</b><p>でしょうね。</p></div>
 <div class="ji"><b>（地の文）</b><p>東の斜面を、馬が一頭駆け下りてきた――</p></div>
 <div class="se"><b>ハンナ</b><p>来ました！</p></div>
 <div class="se"><b>クルト</b><p>一頭だけだ。</p></div>
 <div class="se"><b>ボリス</b><p>どけどけどけ！</p></div>
-<div class="ji"><b>（地の文）</b><p>男は敵陣を突っ切って窪地へ降りた――</p></div>
+<div class="ji"><b>（地の文）</b><p>男は敵の列を突っ切って窪地へ降りた――</p></div>
 <div class="se"><b>ボリス</b><p>ふう。</p><p>……あんたら、囲まれてるな。</p></div>
-<div class="se"><b>クルト</b><p>見りゃ分かる。</p></div>
-<div class="se"><b>ボリス</b><p>おれもだ。三日、追われてる。</p></div>
+<div class="se"><b>クルト</b><p>見りゃ分かる。</p><p>上も横も、ぐるっと塞がってるからな。</p></div>
+<div class="se"><b>ボリス</b><p>おれもだ。三日、追われてる。</p><p>寝てない。</p></div>
 <div class="se"><b>ハンナ</b><p>誰にですか？</p></div>
 <div class="se"><b>ボリス</b><p>あそこの連中に。</p></div>
-<div class="se"><b>ザヴィエラの隊長</b><p>その馬泥棒も、まとめて片づけろ！</p></div>
+<div class="se"><b>ボグダン</b><p>その馬泥棒も、まとめて片づけろ！</p></div>
 <div class="se"><b>ボリス</b><p>泥棒じゃねえ！　うちの馬だ！</p></div>
 <div class="se"><b>クルト</b><p>どういうことだ。</p></div>
-<div class="se"><b>ボリス</b><p>牧をやってたんだ。</p><p>軍が来て、馬を出せと言った。出したら次はもっと出せと言った。</p><p>三度目に、全部持ってくと言いやがった。</p></div>
+<div class="se"><b>ボリス</b><p>牧をやってたんだよ。</p><p>軍が来て、馬を出せと言った。</p><p>出したら、次はもっと出せと言った。</p></div>
 <div class="se"><b>ハンナ</b><p>それで？</p></div>
-<div class="se"><b>ボリス</b><p>一頭だけ連れて逃げた。</p><p>こいつは、おれが取り上げた仔なんだ。</p></div>
+<div class="se"><b>ボリス</b><p>三度目に、全部持ってくと言いやがった。</p><p>だから一頭だけ連れて逃げた。</p><p>こいつは、おれが取り上げた仔なんだ。</p></div>
 <div class="se"><b>ベルント</b><p>なるほどな。それは怒る。</p></div>
 <div class="se"><b>ボリス</b><p>あんたら、どこの兵だ？</p></div>
-<div class="se"><b>アレン</b><p>兵ではありません。</p></div>
+<div class="se"><b>アレン</b><p>兵ではありません。</p><p>三日前までは、そうでした。</p></div>
 <div class="se"><b>ボリス</b><p>じゃあ何だ。</p></div>
 <div class="se"><b>アレン</b><p>……逃げている者です。</p></div>
 <div class="se"><b>ボリス</b><p>おお、同じだな！</p></div>
 <div class="se"><b>クルト</b><p>同じにするな。</p></div>
-<div class="se"><b>ボリス</b><p>同じだろ。囲まれて、行く所がねえ。</p></div>
+<div class="se"><b>ボリス</b><p>同じだろ。囲まれてて、行く所がねえ。</p></div>
 <div class="se"><b>クルト</b><p>……まあ、同じか。</p></div>
-<div class="se"><b>アレン</b><p>手を貸してもらえますか。</p></div>
+<div class="se"><b>アレン</b><p>手を貸してもらえませんか？</p></div>
 <div class="se"><b>ボリス</b><p>貸すも何も、おれ、ここから出られねえよ。</p></div>
-<div class="se"><b>あんたらが開けてくれるなら、その馬に乗せてやる。</b></div></div>
+<div class="se"><b>あんたらが開けてくれるなら、その馬に乗せてやる。</b></div>
+<div class="se"><b>ハンナ</b><p>この人、味方なんですか？</p></div>
+<div class="se"><b>クルト</b><p>まだ分からん。</p><p>馬で走り込んでくる奴は、たいてい厄介だ。</p></div>
+<div class="se"><b>ボリス</b><p>味方だよ。開けてくれるならな。</p></div>
+<div class="se"><b>ベルント</b><p>条件つきの味方か。分かりやすくていい。</p></div></div>
 <h3>自動イベント1（1ターン開始）</h3>
-<div class="serif"><div class="se"><b>ザヴィエラの隊長</b><p>円を閉じろ。東の傾斜に歩兵を置け！</p></div>
-<div class="se"><b>ヨナス</b><p>塞がれました。</p></div>
-<div class="se"><b>クルト</b><p>あそこを開けないと出られない。</p></div>
-<div class="se"><b>アレン</b><p>隊長を落とす。</p></div>
+<div class="serif"><div class="se"><b>ボグダン</b><p>円を閉じろ。東の傾斜に歩兵を置け！</p></div>
+<div class="se"><b>ヨナス</b><p>塞がれました。</p><p>東の斜面、歩兵で埋まってます。</p></div>
+<div class="se"><b>ヨナス</b><p>歩兵が斜面に並んでます。十人くらい。</p></div>
+<div class="se"><b>ベルント</b><p>斜面ならこっちが上を取れる。悪くない。</p></div>
+<div class="se"><b>クルト</b><p>あそこを開けないと出られないぞ。</p></div>
+<div class="se"><b>アレン</b><p>あの隊長を叩きます。</p><p>部下は隊長の顔色を見て動いてるので、そこが止まれば緩みます。</p></div>
 <div class="se"><b>ハンナ</b><p>どれですか！</p></div>
 <div class="se"><b>ボリス</b><p>あの、羽根つけてるやつだ。</p></div>
 <div class="se"><b>ハンナ</b><p>羽根？</p></div>
 <div class="se"><b>ボリス</b><p>兜に鳥の羽根が刺さってるだろ。</p><p>偉いやつほど、でかい羽根つけてる。</p></div>
-<div class="se"><b>馬から見てりゃ、すぐ分かる。</b></div>
+<div class="se"><b>馬の上から見てりゃ、すぐ分かる。</b></div>
 <div class="se"><b>クルト</b><p>……役に立つな、あんた。</p></div>
 <div class="se"><b>ボリス</b><p>だろ？</p></div></div>
 <h3>自動イベント2（ボリスに接触）</h3>
-<div class="serif"><div class="se"><b>アレン</b><p>名前を聞いていません。</p></div>
+<div class="serif"><div class="se"><b>アレン</b><p>まだ名前を聞いていません。</p></div>
 <div class="se"><b>ボリス</b><p>ボリス。</p></div>
 <div class="se"><b>アレン</b><p>アレンです。</p></div>
 <div class="se"><b>ボリス</b><p>アレンさん。</p></div>
 <div class="se"><b>アレン</b><p>……さんは、いりません。</p></div>
-<div class="se"><b>クルト</b><p>隊長でいい。</p></div>
+<div class="se"><b>クルト</b><p>隊長でいい。みんなそう呼んでる。</p></div>
 <div class="se"><b>ボリス</b><p>隊長。</p><p>隊長、あんたら、どこ行くんだ？</p></div>
-<div class="se"><b>アレン</b><p>北へ抜けて、西へ回ります。</p></div>
-<div class="se"><b>ボリス</b><p>北って、山だぞ。あそこは寒い。馬が保たん。</p></div>
-<div class="se"><b>アレン</b><p>歩きます。</p></div>
-<div class="se"><b>ボリス</b><p>歩くのか。……何日だ？</p></div>
-<div class="se"><b>アレン</b><p>十日は。</p></div>
-<div class="se"><b>ボリス</b><p>十日！　食い物は？</p></div>
+<div class="se"><b>ボリス</b><p>その前に。あんた、あの女の何なんだ。</p></div>
+<div class="se"><b>アレン</b><p>護衛です。それだけです。</p></div>
+<div class="se"><b>アレン</b><p>北へ抜けて、それから西へ回ります。</p></div>
+<div class="se"><b>ボリス</b><p>北って、山だぞ。あそこは寒い。</p><p>この時期でも、夜は水が凍る。</p></div>
+<div class="se"><b>アレン</b><p>歩きます。</p><p>馬がないので、そうするしかありません。</p></div>
+<div class="se"><b>ボリス</b><p>歩くのか。……何日かかると思ってる？</p></div>
+<div class="se"><b>アレン</b><p>十日は見ています。</p><p>峠を越えるまでで、それくらいかと。</p></div>
+<div class="se"><b>ボリス</b><p>十日！</p><p>食い物はどれくらい持ってるんだ。</p></div>
 <div class="se"><b>アレン</b><p>三日ぶんです。</p></div>
-<div class="se"><b>ボリス</b><p>足りねえよ！</p></div>
-<div class="se"><b>おれ、道は知ってる。</b><p>牧の連中は、夏に山へ登るからな。</p></div>
-<div class="se"><b>アレン</b><p>案内してもらえますか。</p></div>
+<div class="se"><b>ボリス</b><p>足りねえよ！</p><p>あんた、山を舐めすぎだ。</p></div>
+<div class="se"><b>アレン</b><p>……はい。分かっています。</p></div>
+<div class="se"><b>ボリス</b><p>おれ、道は知ってる。</p><p>牧の連中は、夏に山へ登るからな。</p><p>水の出る所も、風の抜けない窪みも覚えてる。</p><p>地図なんぞ持ってても、あの山じゃ役に立たん。</p></div>
+<div class="se"><b>アレン</b><p>案内してもらえませんか？</p></div>
 <div class="se"><b>ボリス</b><p>いいけど……おれ、給金はもらえるのか？</p></div>
 <div class="se"><b>クルト</b><p>ないよ。</p></div>
 <div class="se"><b>ボリス</b><p>ないのか。</p></div>
-<div class="se"><b>ベルント</b><p>飯はある。俺が作る。</p></div>
+<div class="se"><b>ベルント</b><p>飯はある。俺が作る。</p><p>量は少ないが、まずくはないぞ。</p></div>
 <div class="se"><b>ボリス</b><p>……まあ、それでいいか。</p></div></div>
 <h3>自動イベント3（敵将のHPが半分）</h3>
-<div class="serif"><div class="se"><b>ザヴィエラの隊長</b><p>ぐっ……退くぞ。</p></div>
-<div class="se"><b>魔法騎兵</b><p>隊長、まだ数は上です！</p></div>
-<div class="se"><b>ザヴィエラの隊長</b><p>皇女に傷がついた。</p><p>傷物を連れ帰っても、我々の手柄にならん。</p></div>
+<div class="serif"><div class="se"><b>ボグダン</b><p>ぐっ……。</p></div>
+<div class="se"><b>魔法騎兵</b><p>隊長！</p></div>
+<div class="se"><b>ボグダン</b><p>退くぞ。</p></div>
+<div class="se"><b>魔法騎兵</b><p>まだ数はこちらが上です！</p></div>
+<div class="se"><b>ボグダン</b><p>女に傷がついた。</p><p>傷物を連れ帰っても、手柄にはならん。</p></div>
 <div class="se"><b>魔法騎兵</b><p>……は。</p></div>
-<div class="se"><b>ザヴィエラの隊長</b><p>国境まで下がれ。</p><p>王には、見失ったと言え。</p></div></div>
-<h3>自動イベント4（敵将の撃破）</h3>
-<div class="serif"><div class="ji"><b>（地の文）</b><p>隊長が落馬した――</p><p>包囲が崩れた――</p></div>
+<div class="se"><b>ボグダン</b><p>追うな。追えば、こちらが減る。</p></div>
+<div class="se"><b>魔法騎兵</b><p>……承知しました。</p></div></div>
+<h3>自動イベント4（敵将の撤退）</h3>
+<div class="serif"><div class="ji"><b>（地の文）</b><p>ボグダンが馬を返した――</p></div>
+<div class="se"><b>ボグダン</b><p>東へ下がれ。</p><p>王には、この一件は報告せん。</p></div>
+<div class="ji"><b>（地の文）</b><p>東の斜面から、歩兵が引いていく――</p></div>
+<div class="se"><b>ヨナス</b><p>行きました。斜面が空いてます。</p></div>
+<div class="se"><b>アレン</b><p>いまのうちに抜けます。</p></div>
 <div class="se"><b>ハンナ</b><p>開きました！</p></div>
-<div class="se"><b>クルト</b><p>東だ、走れ！</p></div>
+<div class="se"><b>クルト</b><p>走れ、東だ！</p></div>
 <div class="se"><b>ボリス</b><p>馬、二頭空いてるぞ。乗るか？</p></div>
-<div class="se"><b>クルト</b><p>乗れる奴がいない。</p></div>
+<div class="se"><b>クルト</b><p>乗れる奴がいない。</p><p>全員、歩きで飯を食ってきた口だ。</p></div>
 <div class="se"><b>ボリス</b><p>乗れねえのか！？</p></div>
-<div class="se"><b>クルト</b><p>歩兵だからな。</p></div>
+<div class="se"><b>クルト</b><p>歩兵だからな。習ってない。</p></div>
 <div class="se"><b>ボリス</b><p>……あんたら、不便だな。</p></div>
 <div class="se"><b>ハンナ</b><p>うるさいです！</p></div>
 <div class="se"><b>グレーテ</b><p>殿下、お急ぎください。</p></div>
-<div class="se"><b>アレン</b><p>窪地を出ます。</p></div></div>
+<div class="se"><b>リンデ</b><p>はい。</p></div>
+<div class="se"><b>アレン</b><p>窪地を出ます。</p><p>ボリスさん、先を頼みます。</p></div>
+<div class="se"><b>ボリス</b><p>おう。</p></div></div>
 <h3>会話イベント（支援・アレンとボリス）</h3>
 <div class="serif"><div class="se"><b>アレン</b><p>金で動く人ですか。</p></div>
 <div class="se"><b>ボリス</b><p>そうだよ。</p></div>
 <div class="se"><b>アレン</b><p>……正直ですね。</p></div>
 <div class="se"><b>ボリス</b><p>嘘ついて付いてって、あとで揉めるほうが面倒だ。</p></div>
-<div class="se"><b>牧でもそうだった。</b><p>金の話を先にしない客ほど、あとで値切る。</p></div></div>
+<div class="se"><b>牧でもそうだった。</b><p>金の話を先にしない客ほど、あとで値切る。</p></div>
+<div class="se"><b>アレン</b><p>……覚えておきます。</p></div></div>
 <h3>会話イベント（チュートリアル「騎馬の移動と再行動」）</h3>
-<div class="serif"><div class="se"><b>ボリス</b><p>馬はな、撃ってから下がれる。</p></div>
+<div class="serif"><div class="se"><b>ボリス</b><p>馬はな、殴ってから下がれるんだ。</p></div>
 <div class="se"><b>ハンナ</b><p>え、ずるくないですか！？</p></div>
-<div class="se"><b>ボリス</b><p>ずるいから馬に乗るんだ。</p></div>
-<div class="se"><b>歩兵は殴ったらそこに立ってるしかねえだろ。</b></div></div>
+<div class="se"><b>ボリス</b><p>ずるいから馬に乗るんだよ。</p><p>歩兵は殴ったら、そこに立ってるしかねえだろ。</p><p>殴り返されるのを待ってるようなもんだ。</p></div></div>
 <h3>場所イベント（窪地の出口）</h3>
 <div class="serif"><div class="ji"><b>（地の文）</b><p>窪地の縁――</p></div>
 <div class="se"><b>ヨナス</b><p>……煙が見えます。</p></div>
-<div class="se"><b>ボリス</b><p>集落だな。</p><p>あの煙は、家が焼けてる煙だ。</p></div></div>
+<div class="se"><b>ボリス</b><p>集落だな。</p><p>あの太さは、家が焼けてる煙だ。</p></div>
+<div class="se"><b>ヨナス</b><p>人が住んでるんですか、あそこ。</p></div>
+<div class="se"><b>ボリス</b><p>住んでる。井戸があるからな。</p><p>草原で井戸のある所には、必ず人がいる。</p><p>逆に言うと、賊もそこを狙う。</p></div></div>
 <h3>ユニット固有イベント（敵将に接触）</h3>
-<div class="serif"><div class="se"><b>ザヴィエラの隊長</b><p>王の命ではない。</p><p>皇女を連れ帰れば、私は将になる。</p></div>
-<div class="se"><b>アレン</b><p>……それだけですか。</p></div>
-<div class="se"><b>ザヴィエラの隊長</b><p>それだけで十分だろう！</p></div></div>
+<div class="serif"><div class="se"><b>ボグダン</b><p>王の命ではない。</p><p>皇女を連れ帰れば、私は将になる。</p></div>
+<div class="se"><b>アレン</b><p>……それだけですか。</p><p>そのために、集落ひとつ分の人数を動かしたんですか。</p></div>
+<div class="se"><b>ボグダン</b><p>それだけで十分だろう！</p></div></div>
 <h3>終了イベント</h3>
 <div class="serif"><div class="ji"><b>（地の文）</b><p>集落へ向かう――</p></div>
 <div class="se"><b>グレーテ</b><p>あの煙は……。</p></div>
-<div class="se"><b>ボリス</b><p>急いだほうがいい。</p><p>あそこ、人が住んでる。</p></div></div>
+<div class="se"><b>ボリス</b><p>急いだほうがいい。</p><p>あそこ、人が住んでるんだ。</p></div>
+<div class="se"><b>リンデ</b><p>……行きましょう。</p></div>
+<div class="se"><b>ハンナ</b><p>急ぎましょう！</p></div>
+<div class="se"><b>ベルント</b><p>走るぞ。遅れるなよ。</p></div></div>
 <hr>
 <h2 id="4-3">4-3 東の集落<a class="anchor" href="#4-3">#</a></h2>
-<div class="tw"><table><thead><tr><th>項目</th><th>中身</th></tr></thead><tbody><tr><td>勝利条件</td><td>敵の全滅</td></tr><tr><td>敗北条件</td><td>リンデの戦闘不能／集落の焼失（3か所以上）</td></tr><tr><td>敵</td><td>28体（魔法騎兵）</td></tr></tbody></table></div>
+<div class="tw"><table><thead><tr><th>項目</th><th>中身</th></tr></thead><tbody><tr><td>勝利条件</td><td>12ターン生存（焼失2か所まで）／焼失0でボーナス</td></tr><tr><td>敗北条件</td><td>リンデの戦闘不能／集落の焼失が3か所</td></tr><tr><td>敵</td><td>28体（魔法騎兵）</td></tr></tbody></table></div>
+<p><strong>第2版です。</strong> 勝利条件を「敵の全滅」から「12ターン生存」へ変えました（2026-08-31 オーナー承認）。<strong>賊は損得で動くので、割に合わないと分かれば引きます。</strong> 焼失0で追加の報酬が出ます。</p>
 <h3>開幕イベント</h3>
 <div class="serif"><div class="ji"><b>（地の文）</b><p>草原の集落――</p><p>家屋が二軒、燃えている――</p></div>
-<div class="se"><b>ハンナ</b><p>ひどい……。</p></div>
-<div class="se"><b>ボリス</b><p>略奪だな。</p></div>
+<div class="se"><b>ハンナ</b><p>ひどい……。</p><p>二軒とも、もう屋根まで火が回ってます。</p></div>
+<div class="se"><b>ボリス</b><p>略奪だな。</p><p>火をつけて、出てきた所を捕まえるやり方だ。</p></div>
 <div class="se"><b>クルト</b><p>国境の兵がやるのか？</p></div>
-<div class="se"><b>ボリス</b><p>国境の兵じゃねえよ。旗がねえだろ。</p><p>どこの国にも属してねえ連中だ。</p></div>
+<div class="se"><b>ボリス</b><p>国境の兵じゃねえよ。旗がねえだろ。</p><p>どこの国にも属してねえ連中だ。</p><p>元は兵だったのが混ざってる。動きで分かる。</p></div>
 <div class="se"><b>軍が動くと、こういうのが湧く。</b></div>
-<div class="se"><b>ベルント</b><p>どこも同じだな。</p></div>
+<div class="se"><b>ベルント</b><p>どこも同じだな。</p><p>俺のいた村にも、戦のあとに来た。</p></div>
+<div class="ji"><b>（地の文）</b><p>井戸のそばに、荷が散らばっている――</p></div>
+<div class="se"><b>ハンナ</b><p>……鍋とか、服とか。</p><p>持ち出そうとして、置いていったんですね。</p></div>
+<div class="se"><b>グレーテ</b><p>人が見当たりません。</p><p>道にも、井戸のそばにも誰もいません。</p></div>
+<div class="se"><b>ボリス</b><p>逃げたか、家の中だ。</p><p>こういうときは、たいてい中にいる。外に出たら捕まるからな。</p></div>
+<div class="se"><b>グレーテ</b><p>……子どもが泣いています。あの家です。</p></div>
+<div class="se"><b>ハンナ</b><p>行きます！</p></div>
+<div class="se"><b>アレン</b><p>一人で入らないでください。</p><p>燃えている家は、中がまったく見えません。</p></div>
+<div class="se"><b>ハンナ</b><p>でも！</p></div>
+<div class="se"><b>ベルント</b><p>俺が入る。ハンナは外で受け取れ。</p></div>
+<div class="se"><b>ハンナ</b><p>……はい！</p></div>
 <div class="ji"><b>（地の文）</b><p>家屋の一つから、光が飛んだ――</p></div>
 <div class="se"><b>略奪隊の兵</b><p>ぐあっ！</p><p>まだ生きてるぞ、あの女！</p></div>
 <div class="ji"><b>（地の文）</b><p>焼け残った家の前に、女が一人立っている――</p></div>
 <div class="se"><b>ヤナ</b><p>まだ来ますか？　何度でもどうぞ！</p></div>
-<div class="se"><b>略奪隊の長</b><p>女一人に手間取るな！</p></div>
+<div class="se"><b>略奪隊の長</b><p>女ひとりに手間取るな！</p></div>
 <div class="se"><b>ハンナ</b><p>一人で戦ってます！</p></div>
-<div class="se"><b>ヨナス</b><p>二十八……いえ、二十六です。二人倒してます。</p></div>
-<div class="se"><b>クルト</b><p>化け物か！</p></div>
+<div class="se"><b>ヨナス</b><p>二十八……いえ、二十六ですね。</p><p>二人、もう倒してます。</p></div>
+<div class="se"><b>クルト</b><p>二人って、あの数の中でか！？</p></div>
+<div class="se"><b>クルト</b><p>……賊は何人だ。</p></div>
+<div class="se"><b>ヨナス</b><p>二十六。散らばってます。</p><p>火をつけて回ってるのが三人、あとは囲みです。</p></div>
+<div class="se"><b>クルト</b><p>多いな。</p><p>こっちは八人だぞ。殿下とボリスを入れてもだ。</p></div>
+<div class="se"><b>アレン</b><p>全部を相手にしなくていいです。</p><p>火をつけてる三人を止めれば、家は残ります。</p></div>
+<div class="se"><b>ヨナス</b><p>あの人、魔道士ですよ。</p><p>撃ち方が、さっきの騎兵と同じです。</p></div>
+<div class="se"><b>クルト</b><p>味方か？</p></div>
+<div class="se"><b>ヨナス</b><p>少なくとも、あっちの敵ですね。</p></div>
 <div class="se"><b>ヤナ</b><p>そこの方々！　見ているだけですか！</p></div>
 <div class="se"><b>クルト</b><p>いま行く！</p></div>
 <div class="se"><b>ヤナ</b><p>早くしてください。</p><p>わたくし、あと二回しか撃てません！</p></div>
 <div class="se"><b>ハンナ</b><p>二回！？</p></div>
 <div class="se"><b>ヤナ</b><p>三回撃つと空になります。ご存じない？</p></div>
-<div class="se"><b>ヨナス</b><p>……さっきも聞きました、それ。</p></div>
-<div class="se"><b>アレン</b><p>全員、集落へ。燃えている家から離せ。</p></div>
-<div class="se"><b>ベルント</b><p>俺は右の家だ！</p></div>
+<div class="se"><b>ヨナス</b><p>……今日、二回目ですよ、その話。</p></div>
+<div class="se"><b>ヤナ</b><p>そこの弓の方！　右です、右！</p></div>
+<div class="se"><b>ヨナス</b><p>え、ボクですか！？</p></div>
+<div class="se"><b>ヤナ</b><p>ほかに弓がいますか！</p><p>右の男が松明を持っています。先に落としてください！</p></div>
+<div class="se"><b>ヨナス</b><p>……はい！</p></div>
+<div class="se"><b>クルト</b><p>仕切られてるぞ、あいつに。</p></div>
+<div class="se"><b>ヨナス</b><p>だって、言ってること当たってますもん！</p></div>
+<div class="se"><b>アレン</b><p>全員、集落へ。</p><p>燃えている家から、賊を引き離してください。</p></div>
+<div class="se"><b>ベルント</b><p>俺は右の家だ！</p><p>風下だ、先に落ちるぞ！</p></div>
 <div class="se"><b>ハンナ</b><p>あたし左！</p></div>
 <div class="se"><b>グレーテ</b><p>中に人が！　まだ中に人がいます！</p></div>
-<div class="se"><b>アレン</b><p>出せるか。</p></div>
+<div class="se"><b>アレン</b><p>出せますか。</p></div>
 <div class="se"><b>グレーテ</b><p>やります！</p></div>
+<div class="se"><b>アレン</b><p>出したら、井戸のそばへ連れていってください。</p><p>あそこなら火が回りません。</p></div>
+<div class="se"><b>グレーテ</b><p>はい。</p></div>
 <div class="se"><b>リンデ</b><p>わたしも運びます。</p></div>
-<div class="se"><b>アレン</b><p>殿下は下がってください。</p></div>
+<div class="se"><b>アレン</b><p>殿下は下がっていてください。</p></div>
 <div class="se"><b>リンデ</b><p>いやです。</p><p>運ぶだけなら、できます。</p></div>
-<div class="se"><b>アレン</b><p>……ベルント。</p></div>
-<div class="se"><b>ベルント</b><p>殿下は俺のそばだ。任せろ！</p></div>
+<div class="se"><b>アレン</b><p>……分かりました。</p><p>ベルント、殿下のそばを頼みます。</p></div>
+<div class="se"><b>ベルント</b><p>任せろ！</p></div>
 <div class="ji"><b>（地の文）</b><p>集落の女が家から出てくる――</p></div>
 <div class="se"><b>集落の女</b><p>あんたら、誰だい。</p></div>
 <div class="se"><b>クルト</b><p>通りすがりだ。</p></div>
@@ -339,39 +475,59 @@ footer{margin-top:60px;padding-top:18px;border-top:1px solid var(--line);
 <div class="se"><b>クルト</b><p>助けてほしくないのか。</p></div>
 <div class="se"><b>集落の女</b><p>……そりゃ、助かるけどさ。</p><p>あとで、あんたらの分の恨みも来るんだよ。</p></div>
 <div class="se"><b>ハンナ</b><p>恨み？</p></div>
-<div class="se"><b>集落の女</b><p>賊は戻ってくる。</p><p>助けた家から先に焼かれるんだ。</p></div>
-<div class="se"><b>ボリス</b><p>ほんとの話だ。うちの牧の隣も、そうだった。</p></div>
-<div class="se"><b>アレン</b><p>戻らせません。</p></div>
-<div class="se"><b>集落の女</b><p>どうやって？</p></div>
-<div class="se"><b>アレン</b><p>全部倒します。</p></div>
-<div class="se"><b>集落の女</b><p>……全部？</p></div>
-<div class="se"><b>アレン</b><p>はい。</p></div>
+<div class="se"><b>集落の女</b><p>賊は戻ってくる。</p><p>助けた家から先に焼かれるんだ。</p><p>見せしめってやつだよ。</p></div>
+<div class="se"><b>ボリス</b><p>ほんとの話だ。</p><p>うちの牧の隣も、そうやって二度焼かれた。</p></div>
+<div class="se"><b>アレン</b><p>戻らせません。</p><p>少なくとも、しばらくは来なくなります。</p></div>
+<div class="se"><b>集落の女</b><p>どうやって。</p><p>あんたら、今日いなくなるんだろ。</p></div>
+<div class="se"><b>アレン</b><p>ここへ来ると割に合わないと、あの人たちに思わせます。</p></div>
+<div class="se"><b>集落の女</b><p>……そんなことができるのかい。</p></div>
+<div class="se"><b>アレン</b><p>賊は、儲かると思うから来ます。</p><p>損のほうが大きければ、次は別の集落へ行きます。</p><p>今日、それを分からせます。</p></div>
+<div class="se"><b>集落の女</b><p>……冷たい言い方だね。</p></div>
+<div class="se"><b>アレン</b><p>はい。でも、そのほうが長く保ちます。</p></div>
 <div class="se"><b>集落の女</b><p>……あんた、名前は。</p></div>
 <div class="se"><b>アレン</b><p>名乗れません。</p></div>
 <div class="se"><b>集落の女</b><p>なんでだい。</p></div>
-<div class="se"><b>アレン</b><p>名乗ると、あなたが困ります。</p></div>
+<div class="se"><b>アレン</b><p>名乗ると、あなたが困ります。</p><p>誰が来たか訊かれたときに、答えられないほうがいい。</p><p>知らないと言えば、それで済みます。</p></div>
 <div class="se"><b>集落の女</b><p>……そうかい。</p></div>
+<div class="se"><b>略奪隊の長</b><p>家に火をかけろ。中の連中を追い出せ。</p><p>売れるのは生きてる奴だけだ。</p></div>
+<div class="se"><b>ハンナ</b><p>売る……？</p><p>人を、ですか。</p></div>
+<div class="se"><b>ボリス</b><p>人を売るんだよ。</p><p>南に市があるんだ。名前も聞かずに買う連中がいる。</p></div>
+<div class="se"><b>ハンナ</b><p>……最低ですね。</p></div>
+<div class="se"><b>ボリス</b><p>最低だ。</p><p>だから誰も止めねえんだよ、こういう連中を。</p></div>
 <div class="se"><b>略奪隊の長</b><p>増えたな。構わん、女を捕まえろ！</p><p>高く売れる！</p></div>
 <div class="se"><b>ヤナ</b><p>わたくしのことでしょうか。</p></div>
 <div class="se"><b>略奪隊の長</b><p>その隣の、角のあるほうだ！</p></div>
-<div class="ji"><b>（地の文）</b><p>全員の手が止まった――</p></div>
+<div class="ji"><b>（地の文）</b><p>小隊の全員が、リンデを見た――</p></div>
 <div class="se"><b>ヤナ</b><p>……角？</p><p>まあ。王族の方がいらっしゃるのですか。</p></div>
 <div class="se"><b>アレン</b><p>いまは敵を。</p></div>
-<div class="se"><b>ヤナ</b><p>そうですね。あと二回、撃ちます。</p></div></div>
+<div class="se"><b>ヤナ</b><p>そうですね。あと二回、撃ちます。</p></div>
+<div class="se"><b>リンデ</b><p>……グラーヴェン。</p></div>
+<div class="se"><b>アレン</b><p>はい。</p></div>
+<div class="se"><b>リンデ</b><p>この人たちは、わたしのせいではないですよね。</p></div></div>
 <h3>自動イベント1（1ターン開始）</h3>
 <div class="serif"><div class="se"><b>略奪隊の長</b><p>火をかけろ！　家ごと焼けば出てくる！</p></div>
-<div class="se"><b>グレーテ</b><p>三軒目が燃えます！</p></div>
-<div class="se"><b>アレン</b><p>消せるか。</p></div>
+<div class="se"><b>グレーテ</b><p>三軒目に火が！</p></div>
+<div class="se"><b>アレン</b><p>消せますか。</p></div>
 <div class="se"><b>ボリス</b><p>水がねえ。井戸は向こう側だ。</p></div>
-<div class="se"><b>クルト</b><p>燃やされる前に倒すしかない。</p></div>
+<div class="se"><b>クルト</b><p>燃やされる前に叩くしかないな。</p></div>
 <div class="se"><b>ハンナ</b><p>何軒まで平気なんですか！</p></div>
-<div class="se"><b>集落の女</b><p>三軒だ。三軒燃えたら、風で全部いく。</p></div>
-<div class="se"><b>ヨナス</b><p>放火してるのは三人です。先に落とします。</p></div>
-<div class="se"><b>アレン</b><p>頼む。</p></div></div>
+<div class="se"><b>集落の女</b><p>三軒だ。</p><p>三軒燃えたら、風で全部いく。ここは風が抜けるからね。</p><p>去年もそうやって、隣の集落が丸ごと消えた。</p></div>
+<div class="se"><b>ボリス</b><p>風が変わったぞ。東から西だ。</p><p>右の家が燃えたら、左まで一息でいく。</p></div>
+<div class="se"><b>アレン</b><p>右を先に止めます。</p></div>
+<div class="se"><b>ヤナ</b><p>承知しました。わたくしが右へ回ります。</p></div>
+<div class="se"><b>ヨナス</b><p>火をつけて回ってるのは三人です。</p><p>あいつらから先に落とします。</p></div>
+<div class="se"><b>アレン</b><p>頼みます。</p></div>
+<div class="se"><b>ヤナ</b><p>わたくしが右をやります。</p></div>
+<div class="se"><b>ハンナ</b><p>撃てるんですか！？</p></div>
+<div class="se"><b>ヤナ</b><p>あと一回ぶんは。</p></div></div>
 <h3>自動イベント2（ヤナに接触）</h3>
 <div class="serif"><div class="se"><b>ヤナ</b><p>助かりました。</p></div>
-<div class="se"><b>アレン</b><p>こちらもです。</p></div>
+<div class="se"><b>アレン</b><p>こちらもです。</p><p>あなたが持ちこたえていなければ、間に合いませんでした。</p></div>
 <div class="se"><b>ヤナ</b><p>ヤナと申します。この集落の生まれです。</p></div>
+<div class="se"><b>ヤナ</b><p>ところで、そちらの方は。</p></div>
+<div class="se"><b>グレーテ</b><p>グレーテと申します。治癒をやっています。</p></div>
+<div class="se"><b>ヤナ</b><p>治癒！　等級はいくつです？</p></div>
+<div class="se"><b>グレーテ</b><p>……四級です。数をこなしただけです。</p></div>
 <div class="se"><b>アレン</b><p>お住まいは。</p></div>
 <div class="se"><b>ヤナ</b><p>焼けました。一軒目です。</p><p>構いません。本はほとんど持ち出しました。</p></div>
 <div class="se"><b>ハンナ</b><p>本？</p></div>
@@ -384,70 +540,95 @@ footer{margin-top:60px;padding-top:18px;border-top:1px solid var(--line);
 <div class="se"><b>ヤナ</b><p>それだけです。</p></div>
 <div class="se"><b>なぜ魔力は血で決まるのか。</b><p>なぜ等級は生涯変わらないのか。</p><p>なぜ王族だけが錬成できるのか。</p></div>
 <div class="se"><b>クルト</b><p>……三つ目はまずいな。</p></div>
-<div class="se"><b>ヤナ</b><p>ええ。三つ目で追い出されました。</p><p>訊いてはいけないことだそうです。</p></div>
+<div class="se"><b>ヤナ</b><p>ええ。三つ目で追い出されました。</p><p>訊いてはいけないことだそうです。</p><p>なぜいけないのかも、教えてもらえませんでした。</p></div>
 <div class="se"><b>訊いた者は集落へ帰されます。</b><p>帰されたら、賊が来ても誰も助けに来ません。</p></div>
 <div class="se"><b>アレン</b><p>……ヤナ殿。</p></div>
 <div class="se"><b>ヤナ</b><p>ヤナで結構です。</p></div>
 <div class="se"><b>アレン</b><p>一緒に来ますか。</p></div>
-<div class="se"><b>ヤナ</b><p>行きます。</p><p>訊きたいことが、まだ山ほどありますので。</p></div></div>
+<div class="se"><b>ヤナ</b><p>行きます。</p><p>訊きたいことが、まだ山ほどありますので。</p></div>
+<div class="se"><b>クルト</b><p>訊く相手を選んでくれよ。</p></div>
+<div class="se"><b>ヤナ</b><p>選びます。</p><p>いちばん訊きたい方は、後回しにします。</p></div></div>
 <h3>自動イベント3（5ターン開始）</h3>
 <div class="serif"><div class="se"><b>クルト</b><p>……あ。隊長、剣が。</p></div>
 <div class="ji"><b>（地の文）</b><p>クルトの剣から、光が消えた――</p></div>
-<div class="se"><b>クルト</b><p>鉄に戻った。</p></div>
+<div class="se"><b>クルト</b><p>鉄に戻っちまった。</p></div>
 <div class="se"><b>ハンナ</b><p>どういうことですか！？</p></div>
-<div class="se"><b>クルト</b><p>中の力が切れたんだよ。</p></div>
-<div class="se"><b>ベルント</b><p>俺のもだ。三日、休まず戦ってるからな。</p></div>
+<div class="se"><b>クルト</b><p>中の力が切れたんだよ。</p><p>三日、休まず振ってりゃこうなる。</p><p>城にいたときは、こんなに続けて使わなかった。</p></div>
+<div class="se"><b>ベルント</b><p>俺のもだ。さっきから手応えが違う。</p></div>
 <div class="se"><b>ハンナ</b><p>斬れないんですか！</p></div>
 <div class="se"><b>クルト</b><p>斬れる。棒で殴るのと同じくらいには。</p></div>
 <div class="se"><b>ヨナス</b><p>それ、斬れてないです。</p></div>
+<div class="se"><b>クルト</b><p>言うな。分かってる。</p></div>
 <div class="se"><b>リンデ</b><p>貸してください。</p></div>
 <div class="se"><b>アレン</b><p>殿下。</p></div>
 <div class="se"><b>リンデ</b><p>クルトさん、剣を。</p></div>
-<div class="se"><b>クルト</b><p>あ、はい。</p></div>
+<div class="se"><b>クルト</b><p>……あ、はい。</p></div>
 <div class="ji"><b>（地の文）</b><p>リンデが刃に触れた――</p><p>剣が灯る――</p></div>
-<div class="se"><b>クルト</b><p>……戻った。</p></div>
-<div class="se"><b>リンデ</b><p>次の方。</p></div>
+<div class="se"><b>クルト</b><p>……戻った。</p><p>こんなことができるんですか。</p></div>
+<div class="se"><b>リンデ</b><p>できます。次の方。</p></div>
 <div class="se"><b>ベルント</b><p>殿下。ご無理はなさいますな。</p></div>
 <div class="se"><b>リンデ</b><p>平気です。</p></div>
 <div class="ji"><b>（地の文）</b><p>リンデの指先が震えていた――</p></div>
 <div class="se"><b>グレーテ</b><p>殿下。</p></div>
-<div class="se"><b>リンデ</b><p>……もう一人だけ。</p></div></div>
-<h3>自動イベント4（敵の全滅）</h3>
-<div class="serif"><div class="se"><b>略奪隊の長</b><p>ば、化け物どもが……！</p></div>
-<div class="ji"><b>（地の文）</b><p>賊は逃げた――</p></div>
-<div class="se"><b>集落の女</b><p>……終わったのかい。</p></div>
-<div class="se"><b>アレン</b><p>終わりました。</p></div>
+<div class="se"><b>リンデ</b><p>……もう一人だけ。</p></div>
+<div class="se"><b>グレーテ</b><p>あと一人です。それ以上は止めます。</p></div>
+<div class="se"><b>リンデ</b><p>はい。</p></div>
+<div class="se"><b>ヤナ</b><p>殿下。いま、何をなさったのですか？</p></div>
+<div class="se"><b>リンデ</b><p>力を分けました。</p></div>
+<div class="se"><b>ヤナ</b><p>分けられるのですか！？</p><p>そんな話、どの本にも書いてありませんでしたが。</p></div>
+<div class="se"><b>クルト</b><p>だから訊くなって言ったろ。</p><p>この人は、訊かれたら全部答えちまうんだ。</p></div></div>
+<h3>自動イベント4（12ターン終了）</h3>
+<div class="serif"><div class="se"><b>略奪隊の兵</b><p>頭！　もう半分やられてます！</p></div>
+<div class="se"><b>略奪隊の長</b><p>……引くぞ。</p></div>
+<div class="se"><b>略奪隊の兵</b><p>女は！？</p></div>
+<div class="se"><b>略奪隊の長</b><p>置いていけ。</p><p>こんな所で人数を減らしてたら、次が回らん。</p></div>
+<div class="ji"><b>（地の文）</b><p>賊が草原へ散っていく――</p></div>
+<div class="se"><b>集落の女</b><p>……行ったのかい。</p></div>
+<div class="se"><b>アレン</b><p>行きました。</p></div>
+<div class="se"><b>集落の女</b><p>戻ってくるかね。</p></div>
+<div class="se"><b>アレン</b><p>しばらくは来ません。</p><p>あの人たちも、頭数が減れば困ります。</p></div>
 <div class="se"><b>集落の女</b><p>ありがとうよ。</p><p>礼をしたいところだけど。</p></div>
-<div class="se"><b>クルト</b><p>いらない。</p></div>
+<div class="se"><b>クルト</b><p>いらない。</p><p>こっちも通り道で寄っただけだ。</p></div>
 <div class="se"><b>集落の女</b><p>……泊めてやりたいけどさ。</p><p>あんたら、追われてるんだろ。</p></div>
 <div class="se"><b>アレン</b><p>はい。</p></div>
-<div class="se"><b>集落の女</b><p>なら、いられちゃ困る。</p></div>
+<div class="se"><b>集落の女</b><p>なら、いられちゃ困る。</p><p>追ってくる連中が、ここを見るからね。</p></div>
 <div class="se"><b>アレン</b><p>分かっています。</p></div>
+<div class="se"><b>集落の女</b><p>うちの人は、去年おんなじので死んだよ。</p><p>止めようとしてね。</p></div>
+<div class="se"><b>クルト</b><p>……そうか。</p></div>
+<div class="se"><b>集落の女</b><p>止めなきゃよかったって、いまでも思う。</p><p>思っちまうんだよ。</p></div>
 <div class="se"><b>集落の女</b><p>……悪いね。</p></div>
-<div class="se"><b>アレン</b><p>いえ。</p></div></div>
+<div class="se"><b>アレン</b><p>いえ。水だけ、分けてもらえますか？</p></div>
+<div class="se"><b>集落の女</b><p>それくらいなら。</p></div></div>
 <h3>会話イベント（チュートリアル「MP切れと供魔」）</h3>
 <div class="serif"><div class="se"><b>ヤナ</b><p>武器の中の力が切れると、鉄に戻ります。</p></div>
 <div class="se"><b>ハンナ</b><p>壊れないんですか？</p></div>
-<div class="se"><b>ヤナ</b><p>壊れません。器はそのままです。</p><p>放っておけば、休むぶんだけ戻ります。</p></div>
-<div class="se"><b>ハンナ</b><p>休む時間、ないんですけど。</p></div>
-<div class="se"><b>ヤナ</b><p>ですから、殿下がいらっしゃるのでしょう。</p></div>
+<div class="se"><b>ヤナ</b><p>壊れません。器はそのままです。</p><p>放っておけば、休むぶんだけ戻ります。</p><p>一晩眠れば、半分は戻るはずです。</p></div>
+<div class="se"><b>ハンナ</b><p>休む時間、ないんですけど。</p><p>三日、ずっと歩きっぱなしです。</p></div>
+<div class="se"><b>ヤナ</b><p>ですから、殿下がいらっしゃるのでしょう。</p><p>休む時間の代わりになる方が、そばにいるわけです。</p></div>
 <div class="se"><b>……あの方、どのくらい渡せるのですか。</b></div>
-<div class="se"><b>クルト</b><p>訊くな。</p></div></div>
+<div class="se"><b>クルト</b><p>訊くな。</p></div>
+<div class="se"><b>ヤナ</b><p>なぜです？　答えにくい話でしょうか。</p></div>
+<div class="se"><b>クルト</b><p>訊いたら、あの人は答えちまうからだ。</p></div></div>
 <h3>会話イベント（支援・ヤナとリンデ）</h3>
 <div class="serif"><div class="se"><b>ヤナ</b><p>殿下。等級を伺っても？</p></div>
-<div class="se"><b>リンデ</b><p>測っていません。</p></div>
+<div class="se"><b>リンデ</b><p>測っていません。</p><p>一度も、測られたことがありません。</p></div>
 <div class="se"><b>ヤナ</b><p>測らない！？　なぜです。</p></div>
 <div class="se"><b>リンデ</b><p>王族は、測らないのです。</p><p>測る必要がないと言われました。</p></div></div>
 <h3>ユニット固有イベント（略奪隊の長に接触）</h3>
 <div class="serif"><div class="se"><b>略奪隊の長</b><p>俺たちは、どこの兵でもない。</p><p>だから、どこの国も俺たちを止めない。</p></div>
-<div class="se"><b>アレン</b><p>……。</p></div>
-<div class="se"><b>略奪隊の長</b><p>あんたらも、そうなるぞ！</p></div>
-<div class="se"><b>アレン</b><p>黙れ。</p></div></div>
+<div class="se"><b>アレン</b><p>止められないのではなく、放っているだけです。</p></div>
+<div class="se"><b>略奪隊の長</b><p>同じことだろうが！</p><p>あんたらも、そのうちこっち側になるぞ！</p></div>
+<div class="se"><b>アレン</b><p>……そうならないように歩いています。</p></div>
+<div class="se"><b>アレン</b><p>あなたの名前は聞きません。</p><p>聞くと、探したくなるので。</p></div></div>
 <h3>終了イベント</h3>
 <div class="serif"><div class="ji"><b>（地の文）</b><p>集落を出る――</p><p>北へ　山脈が見える――</p></div>
 <div class="se"><b>ボリス</b><p>あそこを越える。</p></div>
-<div class="se"><b>ハンナ</b><p>高いですね……。</p></div>
+<div class="se"><b>ハンナ</b><p>高いですね……。</p><p>上のほう、白くなってますよ。あれ雪ですか。</p></div>
+<div class="se"><b>ボリス</b><p>高いぞ。今日みたいな服じゃ、夜に死ぬ。</p><p>集落で毛のものをもらってきた。</p></div>
 <div class="se"><b>ヨナス</b><p>隊長。伝令の鳥が、北へ飛んでいきました。</p></div>
-<div class="se"><b>アレン</b><p>……追撃隊だな。急ぎます。</p></div></div>
+<div class="se"><b>アレン</b><p>……追撃隊ですね。急ぎましょう。</p></div>
+<div class="se"><b>ヤナ</b><p>あの、質問をしてもよろしいですか。</p></div>
+<div class="se"><b>クルト</b><p>もう始めるのか。</p><p>まだ集落を出て百歩も歩いてないぞ。</p></div>
+<div class="se"><b>ヤナ</b><p>歩きながらで結構です。</p></div></div>
 <footer>SRPG 一章シナリオ台本／正本は <code>.company/game/</code>／2026-08-28 時点</footer>
 </div></body></html>
